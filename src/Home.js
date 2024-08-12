@@ -35,7 +35,7 @@ const Home = () => {
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showFourthDiv, setShowFourthDiv] = useState(false);
+  const showFourthDiv = useState(false);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex < 2 ? prevIndex + 1 : prevIndex));
@@ -79,21 +79,6 @@ const Home = () => {
 
   const [errors, setErrors] = useState({});
 
-  /*   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-
-    // Clear the specific error when the field is updated
-    if (errors[name]) {
-      const newErrors = { ...errors };
-      delete newErrors[name];
-      setErrors(newErrors);
-    }
-  }; */
-
   const handleChange = (e) => {
     const { name, value, files } = e.target;
     if (name === "resume") {
@@ -136,53 +121,6 @@ const Home = () => {
     return newErrors;
   };
 
-  /*  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    const validationErrors = validate();
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
-      return;
-    }
-
-    setErrors({}); // Clear any existing errors
-    console.log("formData", formData);
-
-    
-    try {
-      const response = await fetch(
-        "http://localhost:3001/axcentech/axcentable",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-
-      if (!response.ok) {
-        console.error("Failed to save data to the server", response);
-        return;
-      }
-
-      console.log("Form Data successfully submitted to the server");
-
-      // Reset the form data
-      setFormData({
-        firstName: "",
-        lastName: "",
-        phoneNumber: "",
-        descriptionbox: "",
-        recipientEmail: "", // Optionally reset recipientEmail if needed
-      });
-
-      // Navigate to "/thank"
-      navigate("/thank");
-    } catch (error) {
-      console.error("An error occurred while submitting the form:", error);
-    }
-  }; */
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -766,15 +704,7 @@ const Home = () => {
                 <FontAwesomeIcon icon={faEnvelope} />
                 &nbsp; hr@axcentech.com
               </span>
-              {/*  <iframe
-            title="Google Map"
-            width="400"
-            height="300"
-            frameBorder="0"
-            style={{ border: 0 }}
-            src={`https://www.google.com/maps/embed/v1/place?q=No.10,Second+Cross,Kumaran+Nagar,Puthur,Thiruchirappalli-620017,Tamil+Nadu,India&key=axcen-412307`}
-            allowFullScreen
-          ></iframe> */}
+           
             </div>
             <div className="map">
               {" "}
@@ -790,7 +720,7 @@ const Home = () => {
             </div>
 
             <div className="contact-form-container">
-              <h2></h2>
+              <h2> </h2>
               <form className="contact-form" onSubmit={handleSubmit}>
                 <label className="getintouch">Get in touch</label>
                 <label>
