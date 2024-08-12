@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CompanyLogo from "./images/axcen_logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -23,7 +22,7 @@ import insta from "./axcenimages/insta.png";
 const Home = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [showTechnologyLinks, setShowTechnologyLinks] = useState(false);
+  const setShowTechnologyLinks = useState(false);
   const [uploadedFiles, setUploadedFiles] = useState([]);
 
   const handleNavToggle = () => {
