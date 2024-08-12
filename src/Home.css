@@ -1,0 +1,2696 @@
+.axcen-logo h3 {
+  white-space: nowrap; /* Ensures the text stays on one line */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adds "..." if text overflows */
+}
+
+.axcen-logo h3::before {
+  content: "Innovation Lab Private Limited";
+  
+}
+
+.axcenweb {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  margin-top: -250px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(245, 245, 245, 1.9); 
+ 
+  height: 100px;
+  padding: 10px; 
+  margin-top: 0px;
+  font-family: 'Bookman Old Style';
+  font-weight: 100;
+  width: 1500px;
+}
+
+.navigationbar {
+  position: fixed;
+  z-index: 1000; /* Set a higher z-index value */
+  width: 100%;
+}
+
+#axcenaboutus {
+  padding-top: 100px; 
+  margin-top: -100px; 
+}
+#axcenservices {
+  padding-top: 100px; 
+  margin-top: -100px; 
+}
+#axcentechnology {
+  padding-top: 100px; 
+  margin-top: -100px; 
+}
+#axcenindustry {
+  padding-top: 10px; 
+  margin-top: -10px; 
+}
+#axcencontactus {
+  padding-top: 100px; 
+  margin-top: -100px; 
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 15px; 
+}
+
+Link {
+  text-decoration: none;
+  color: #333; 
+  font-weight: bold;
+}
+
+
+.axcen-name {
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+
+
+.axcen-logo {
+  display: flex;
+  align-items: center;
+}
+
+.axcen-logo img {
+  margin-right: 10px; 
+}
+
+.axcen-logo h3 {
+
+  font-family: 'Bookman Old Style';
+}
+.axcen-name {
+  margin-bottom: 0;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.contact {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: whitesmoke;
+  width: 120px;
+  align-items: center;
+  display: flex;
+  background-color: rgb(11, 153, 106); 
+
+}
+
+.nav-link {
+  align-items: center;
+  display: flex;
+
+}
+
+
+.contact .nav-link {
+  color: white;
+}
+.navig-link {
+color:  #6B8E23;
+}
+
+.about-dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+
+.about-dropdown:hover .dropdown-content {
+display: block;
+} 
+
+.nav-link {
+cursor: pointer;
+}
+
+
+.dropdown {
+display: none;
+position: absolute;
+background-color: #fff;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item:hover .dropdown {
+display: block;
+}
+
+.dropdown ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.dropdown li {
+padding: 8px;
+}
+
+.nav-item:hover a {
+background-color: crimson;
+color: white;
+
+}
+
+.contact:hover a {
+background-color: rgb(11, 153, 106);
+
+}
+
+.navbar-nav li {
+position: relative;
+}
+
+
+
+.sub-link {
+position: absolute;
+display: none;
+
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+z-index: 1;
+width: 140px; 
+}
+
+
+.sub-link li:hover {
+background-color: #6B8E23;
+}
+
+.navbar-nav li:hover > .sub-link {
+display: block;
+
+}
+.navbar-nav li:hover > .sub-link  li:hover{
+background-color: #6B8E23;
+
+}
+.sub-item:hover a {
+background-color: green;
+color: white;
+}
+
+
+
+.quotes {
+  background: url("./axcenimages/bg\ image.png");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+
+}
+
+
+.axcenquotes h1 {
+  color: black !important;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  width: 550px;
+  margin-top: 250px;
+  padding-top: 530px;
+  padding-left: 30px;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Bookman Old Style';
+}
+
+.axcenquotes h1 span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-100%);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.axcenquotes h1 span:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.axcenquotes h1 span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.axcenquotes h1 span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.axcenquotes h1 span:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.firstquoteimage {
+  background: url("./images/firstquoteimage.avif");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 700px;
+  border-radius: 50px;
+  margin-left: 680px;
+  margin-top: -740px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+.secondquoteimage {
+  background: url("./axcenimages/img\ 2.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 450px;
+  border-radius: 20px;
+  margin-left: 980px;
+  margin-top: -650px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+  animation-delay: 1s;
+
+}
+.thirdquoteimage {
+  background: url("./axcenimages/img\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 490px;
+  width: 580px;
+  border-radius: 20px;
+  margin-left: 600px;
+  margin-top: -280px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+  animation-delay: 2s;
+
+}
+
+.redcircle {
+  background: url("./axcenimages/red\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin-top: -590px;
+  margin-left: 520px;
+  animation: rotate360 2s linear forwards;
+
+}
+.yellowcircle {
+  background: url("./axcenimages/yellow\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin-top: -320px;
+  margin-left: 1240px;
+  animation: rotate360 2s linear forwards;
+
+}
+.greencircle {
+  background: url("./axcenimages/green\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin-top: 250px;
+  margin-left: 1240px;
+  animation: rotate360 2s linear forwards;
+
+}
+
+.aboutus {
+  background: url("./axcenimages/navyblue.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.aboutus h4 {
+  padding-top: 40px;
+  font-size: 32px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+}
+.aboutus p {
+color: whitesmoke !important;
+font-size: 18px;
+font-family: 'Bookman Old Style';
+}
+.abouttext {
+  width: 1350px;
+  padding-top: 50px;
+  padding-left: 120px;
+  padding-right: 30px;
+}
+
+.services h4 {
+  margin-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Bookman Old Style';
+}
+
+.services p{
+  color: black !important;
+  width: 1000px;
+  text-align: center;
+  margin-left: 300px;
+  font-size: 18px;
+  font-family: 'Bookman Old Style';
+}
+.Consulting-content p {
+  color: black;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: -480px;
+  padding-right: 150px;
+  width: 700px;
+  padding-bottom: 180px;
+  font-family: 'Bookman Old Style';
+}
+
+.Consulting-content p span {
+  font-size: 30px;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+ color: rgb(6, 6, 94);
+}
+
+.software-consultant img {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  margin-bottom: 250px;
+  margin-left: 150px;
+  margin-top: -310px;
+}
+.software-consultant {
+  background: url("./axcenimages/half\ green\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 190px;
+  margin-top: 240px;
+  margin-left: 600px;
+}
+
+.Archi-content p {
+  color: black !important;
+  font-size: 20px;
+  margin-left: 840px;
+  margin-top: -530px;
+  padding-right: 150px;
+  padding-bottom: 200px;
+  font-family: 'Bookman Old Style';
+}
+
+.Archi-content  p span {
+  font-size: 30px;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+  color: rgb(6, 6, 94);
+}
+
+.soft-architech img{
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  margin-left: -520px;
+  margin-top: -340px;
+}
+
+.soft-architech {
+  background: url("./axcenimages/half\ red\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 240px;
+  width: 190px;
+  margin-top: 360px;
+  margin-left: 680px;
+}
+
+.Develop-content p {
+  color: black !important;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: -480px;
+  padding-right: 150px;
+  width: 700px;
+  padding-bottom: 150px;
+  font-family: 'Bookman Old Style';
+}
+
+.Develop-content p span {
+  font-size: 30px;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+  color: rgb(6, 6, 94);
+}
+
+.soft-develop img {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  margin-left: 140px;
+  margin-top: -310px;
+}
+
+.soft-develop {
+  background: url("./axcenimages/half\ green\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 190px;
+  margin-top: 290px;
+  margin-left: 600px;
+}
+
+
+.Product-content p {
+  color: black !important;
+  font-size: 20px;
+  margin-left: 800px;
+  margin-top: -480px;
+  padding-right: 150px;
+  padding-bottom: 150px;
+  font-family: 'Bookman Old Style';
+}
+
+.Product-content  p span {
+  font-size: 30px;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+  color: rgb(6, 6, 94);
+}
+
+.soft-product img{
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  margin-left: 140px;
+  margin-top: -10px;
+}
+
+.technology {
+  background-color: black;
+  height: 1500px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+}
+
+.technology h4 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: 'Bookman Old Style';
+}
+
+.ibmtechdef h3 {
+  color: whitesmoke;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-family: 'Bookman Old Style';
+}
+.ibmtechdef p {
+  width: 570px;
+  margin-left: 30px;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+}
+
+.fulltechdef h3 {
+  color: whitesmoke;
+  margin-left: 670px;
+  padding-bottom: 20px;
+  margin-top: -605px;
+  font-family: 'Bookman Old Style';
+
+}
+.fulltechdef p{
+  width: 570px;
+  margin-left: 670px;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+}
+
+.fulltechdef p dl {
+  font-weight: 500;
+  font-size: 18px;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+
+}
+
+.muletechdef h3 {
+  color: whitesmoke;
+  margin-top: -330px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-family: 'Bookman Old Style';
+}
+
+.muletechdef p {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  width: 570px;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+}
+
+.bpmtech h3 {
+  color: whitesmoke;
+  padding-left: 30px;
+  font-family: 'Bookman Old Style';
+}
+
+.bpmtech p {
+  padding-left: 30px;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+}
+
+.opensource h3 {
+  color: whitesmoke;
+  padding-left: 30px;
+  font-family: 'Bookman Old Style';
+}
+
+.opensource p {
+  padding-left: 30px;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+}
+
+.ibmimg {
+  background: url("./axcenimages/ibm.png");
+  background-size: cover;
+  background-position: center;
+  height: 240px;
+  width: 350px;
+  margin-top: -150px;
+  margin-left: 535px;
+  border-radius: 20px;
+}
+
+.muleimg {
+  background: url("./axcenimages/mule\ soft.png");
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  width: 350px;
+  margin-top: -80px;
+  margin-left: 850px;
+  border-radius: 20px;
+
+}
+.fullimg {
+  background: url("./axcenimages/fullstack.webp");
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  width: 350px;
+  margin-top: -180px;
+  margin-left: 220px;
+  border-radius: 20px;
+
+}
+
+.industries {
+  background: url("./axcenimages/navyblue.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-top: 100px;
+}
+
+.industries h3 {
+  font-size: 30px;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 700;
+  font-family: 'Bookman Old Style';
+}
+
+.threeind {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.bankind {
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 340px;
+  width: 450px;
+  border-radius: 20px;
+  
+}
+.healthind {
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 340px;
+  width: 450px;
+  margin-left: 10px;
+   border-radius: 20px;
+}
+.energyind {
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 340px;
+  width: 450px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.bankimgtitle {
+  background: url("./axcenimages/icons8_bank_building\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.bankimgtitle p {
+  color: black !important;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 50px;
+  font-family: 'Bookman Old Style';
+}
+
+.bankind p{
+  color: black !important;
+  font-family: 'Bookman Old Style';
+}
+
+.banktext {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.healthimgtitle {
+  background: url("./axcenimages/icons8_caduceus\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.healthimgtitle p {
+  color: black !important;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 50px;
+  white-space: nowrap;
+  font-family: 'Bookman Old Style';
+}
+
+.healthind p{
+  color: black !important;
+  font-family: 'Bookman Old Style';
+}
+
+.healthtext {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.energyimgtitle {
+  background: url("./axcenimages/icons8_energy_saving_bulb\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.energyimgtitle p {
+  color: black !important;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 50px;
+  font-family: 'Bookman Old Style';
+}
+
+.energyind p{
+  color: black !important;
+  font-family: 'Bookman Old Style';
+}
+
+.energytext {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+.contactbg {
+  background-image: url("./images/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  font-size: 100px;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  opacity: 0;
+  animation: fadeIn 2s forwards, scaleIn 1.5s forwards; /* Apply fadeIn and scaleIn animations */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.contact-message h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contactus {
+  background-color: #ccc;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.contactform {
+  border: 1px solid #ccc;
+  padding: 50px;
+  background-color: #33cc99;
+  margin-left: 100px !important;
+
+}
+
+.browsebtn {
+  border-radius: 5px;
+  background-color: #238866;
+  color: white;
+}
+
+
+
+h2 {
+  margin-left: 600px;
+  margin-bottom: 50px;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+}
+
+.contact-message {
+  font-size: 18px;
+  justify-content: center;
+  width: 900px;
+  margin-left: 300px;
+  margin-top: 50px;
+  font-family: 'Bookman Old Style';
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px !important;
+
+}
+
+.address-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 50px;
+  width: 500px;
+  margin-left: 100px;
+  height: 200px;
+}
+.address-container h3 {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+  font-family: 'Bookman Old Style';
+}
+
+.locspan {
+  margin-left: 20px;
+  font-family: 'Bookman Old Style';
+  font-weight: 100;
+  font-family: 'Bookman Old Style';
+}
+.contact-form {
+  width: 700px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #33cc99; 
+  margin-top: -650px;
+  margin-right: 100px;
+  margin-left: 50px;
+  height: 1080px;
+  font-family: 'Bookman Old Style';
+  font-weight: 100;
+}
+.getintouch {
+  font-size: 28px;
+  padding-bottom: 10px;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+}
+.contact-form-container h2 {
+  margin-top: -680px;
+  white-space: nowrap;
+  font-size: 30px;
+  margin-left: 610px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+
+.error {
+  color:red;
+}
+.map {
+  width: 500px;
+  
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 3px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Bookman Old Style';
+  font-weight: 100;
+}
+
+.subbut {
+  background-color: whitesmoke;
+  color: #4caf50;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Bookman Old Style';
+  font-weight: 500;
+}
+
+.subbut:hover {
+  background-color: #45a049;
+}
+
+.thankyou {
+  border: 1px solid green;
+  width: 700px;
+  margin: 0 auto; 
+  font-family: 'Bookman Old Style';
+  font-weight: 100;
+}
+
+.addresscontform {
+  display: flex;
+}
+.contact-text {
+  color: black !important;
+  font-family: 'Bookman Old Style';
+  font-weight: 100;
+}
+
+
+.careersinaxcen h3 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Bookman Old Style';
+}
+.careersinaxcen h4 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Bookman Old Style';
+}
+
+.careersinaxcen p {
+  width: 1230px;
+  margin-top: 30px;
+  margin-left: 130px;
+  margin-bottom: 50px;
+  font-family: 'Bookman Old Style';
+}
+
+.currentopen h3 {
+  text-align: center;
+  font-family: 'Bookman Old Style';
+
+}
+
+.up, .down {
+  display: none;
+}
+
+.previous {
+  font-size: 70px;
+  padding-top: 0px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 30px;
+  background-color: none;
+}
+
+.next {
+  font-size: 70px;
+  padding-top: 0px;
+  border: none;
+  margin-left: -20px;
+  opacity: 5;
+}
+.ui-ux {
+  background-color:rgb(6, 6, 94) ;
+  width: 400px;
+  height: 140px;
+  
+  margin-right: 50px;
+  border-radius: 20px;
+
+}
+.ui-ux h4 {
+  padding-top: 20px;
+}
+.fullstack {
+  background-color:rgb(6, 6, 94) ;
+  width: 400px;
+  height: 140px;
+  margin-right: 50px;
+  border-radius: 20px;
+margin-left: 10px;
+}
+
+.fullstack h4 {
+  padding-top: 20px;
+}
+.jrfullstack {
+  background-color:rgb(6, 6, 94) ;
+  width: 400px;
+  height: 140px;
+  margin-right: 50px;
+  border-radius: 20px;
+  margin-left: 10px;
+
+}
+
+.jrfullstack h4{
+  padding-top: 20px;
+}
+.ibmdevelop {
+  background-color:rgb(6, 6, 94) ;
+  width: 400px;
+  height: 140px;
+  margin-left: 10px;
+  margin-right: 50px;
+  border-radius: 20px;
+margin-top: 20px;
+}
+.muledevelop {
+  background-color:rgb(6, 6, 94) ;
+  width: 400px;
+  height: 140px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+
+}
+.topopening {
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  height: 150px;
+}
+.endopening {
+  display: flex;
+  margin-bottom: 100px;
+
+}
+
+.openings h4{
+  color: whitesmoke;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Bookman Old Style';
+
+}
+
+.exp {
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+  margin-left: 20px;
+  white-space: nowrap;
+
+}
+
+.place {
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+  margin-left: 20px;
+  margin-top: -70px;
+
+}
+.uicontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 260px;
+  font-size: 70px;
+ 
+}
+.fullcontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 260px;
+  font-size: 70px;
+ 
+}
+.jrfullcontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 260px;
+  font-size: 70px;
+ 
+}
+.ibmcontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 260px;
+  font-size: 70px;
+ 
+}
+.mulecontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 260px;
+  font-size: 70px;
+ 
+}
+
+
+ 
+
+.footerpart {
+  background-color: #ccc;/*  */
+  padding-top: 30px;
+  height: 200px;
+}
+.footerpart img {
+  margin-left: 50px;
+}
+.footer-axcen-logo h5 {
+  margin-left: 110px;
+  margin-top: -35px;
+  margin-bottom: 30px;
+  font-family: 'Bookman Old Style';
+}
+.footernav-item a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Bookman Old Style';
+}
+.footerabout {
+  margin-left: 570px;
+  margin-bottom:30px ;
+  margin-top: -50px;
+
+}
+
+.footerservice {
+  margin-top: -50px;
+  margin-left: 30px;
+}
+
+.footercontact {
+  margin-top: -50px;
+  margin-left: 30px;
+}
+
+.linkedin img{
+  height: 30px;
+  width: 30px;
+  margin-left: 1140px;
+  margin-top: -120px;
+}
+
+.insta img {
+  height: 30px;
+  width: 30px;
+  margin-left: 1200px;
+  margin-top: -60px;
+  margin-top: -170px;
+}
+.copyhr hr {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: -80px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'Bookman Old Style';
+}
+
+
+.nav-item.active a {
+  color: white;
+  background-color: red; 
+}
+
+.upload-resume {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.upload-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.upload-icon {
+  font-size: 24px; /* Adjust size as needed */
+  margin-right: 10px;
+}
+
+.drop-area {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
+}
+
+.drop-area:hover {
+  border-color: #66afe9; /* Change color on hover */
+}
+
+.browse-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #66afe9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.browse-button:hover {
+  background-color: #58a8e3; /* Darker shade on hover */
+}
+
+.uploaded-files {
+  margin-top: 10px;
+}
+
+.uploaded-files h4 {
+  margin: 0;
+}
+
+.uploaded-files ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.uploaded-files li {
+  margin: 5px 0;
+}
+
+.file-support {
+  font-size: 12px;
+  color: #666;
+}
+
+.uploadedFiles {
+  width: 250px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-left: auto;
+  }
+}
+
+ 
+
+
+  
+@media only screen and (max-width: 768px) {
+
+   .axcen-logo h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0; 
+  }
+
+  .axcen-logo h3::before {
+    content: "Innovation Lab";
+    display: block;
+  }
+
+  .axcen-logo h3::after {
+    content: "Private Limited";
+    display: block;
+  }
+  .axcen-logo img {
+    height: 50px;
+    width: 50px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(245, 245, 245, 1.9); 
+    height: 100px;
+    padding: 10px; 
+    margin-top: 0px;
+    font-family: 'Bookman Old Style';
+    font-weight: 100;
+    width: 375px;
+    
+  }
+
+  .navbar-toggler {
+    width: 60px;
+    margin-top: -55px;
+    margin-left: 260px;
+    
+  }
+
+  
+#axcenaboutus {
+  padding-top: 240px; 
+  margin-top: -50px; 
+}
+#axcenservices {
+  padding-top: 100px; 
+  margin-top: -100px; 
+}
+#axcentechnology {
+  padding-top: 190px; 
+  margin-top: -100px; 
+}
+#axcenindustry {
+  padding-top: 10px; 
+  margin-top: -10px; 
+}
+#axcencontactus {
+  padding-top: 100px; 
+  margin-top: -100px; 
+}
+
+
+
+  li {
+    font-size: 16px !important;
+padding-left: 20px !important;
+margin-left: 0px;
+  }
+
+  ul.navbar-nav{
+    background-color: rgba(245, 245, 245, 5.3); 
+    
+  }
+
+a.nav-link{
+  padding-left: 20px;
+}
+
+.homenav {
+  margin-top: 20px;
+}
+.contact-us {
+  margin-bottom: 20px;
+}
+  .axcenquotes h1{
+    font-size: 20px;
+    width: 290px;
+    padding-top: 150px;
+    padding-left: 80px;
+  }
+
+.firstquoteimage {
+  background: url("./images/firstquoteimage.avif");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 250px;
+  border-radius: 20px;
+  margin-left: 60px;
+  margin-top: -420px;
+}
+.secondquoteimage {
+  background: url("./axcenimages/img\ 2.png");
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 180px;
+  border-radius: 20px;
+  margin-left: 170px;
+  margin-top: -360px;
+}
+.thirdquoteimage {
+  background: url("./axcenimages/img\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  width: 240px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: -60px;
+}
+
+.redcircle {
+  background: url("./axcenimages/red\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.yellowcircle {
+  background: url("./axcenimages/yellow\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 120px;
+  width: 120px;
+  margin-top: -130px;
+  margin-left: 280px;
+}
+.greencircle {
+  background: url("./axcenimages/green\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  margin-top: 230px;
+  margin-left: 220px;
+}
+
+.aboutus {
+  margin-top: -320px;
+  height: 1500px;
+}
+
+.abouttext {
+  margin-left: -80px;
+  font-family: 'Bookman Old Style';
+  width: 450px;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+
+.services p{
+  margin-left: 30px;
+  width: 320px;
+  font-size: 20px;
+}
+
+.software-consultant img{
+ width: 320px;
+ height: 330px;
+ margin-left: -575px;
+ margin-top: -360px;
+}
+
+.Consulting-content p{
+  margin-top: -230px;
+  margin-left: 40px;
+  width: 450px;
+}
+
+.Consulting-content p span{
+  font-size: 26px;
+
+}
+.soft-architech img{
+ width: 320px;
+ height: 330px;
+ margin-left: -655px;
+ margin-top: -460px;
+}
+
+.soft-archi p{
+  margin-top: -300px;
+  margin-left: 40px;
+  width: 450px;
+}
+.soft-archi p span{
+  font-size: 26px;
+}
+.soft-develop img{
+ width: 320px;
+ height: 330px;
+ margin-left: -573px;
+ margin-top: -420px;
+}
+
+.soft-dev p{
+  margin-top: -280px;
+  margin-left: 40px;
+  width: 450px;
+}
+
+.soft-dev p span{ 
+  font-size: 26px;
+}
+.soft-product img{
+ width: 320px;
+ height: 330px;
+ margin-left: 25px;
+ margin-top: -80px;
+ 
+}
+
+.soft-prod p{
+  margin-top: -100px;
+  margin-left: 40px;
+  width: 450px;
+}
+
+.soft-prod p span{
+  font-size: 26px;
+}
+.technology {
+  width: 340px;
+  margin-left: 10px;
+  margin-top: -160px;
+  height: 3830px;
+}
+
+.ibmtechdef p {
+  width: 300px;
+}
+.fulltechdef h3 {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.fulltechdef p {
+  width: 300px;
+  margin-left: 30px;
+}
+.muletechdef h3 {
+  margin-top: 80px;
+}
+.muletechdef p{
+  width: 300px;
+} 
+.bpmtech p{
+  width: 300px;
+}
+
+.muleimg {
+  margin-top: 50px;
+  margin-left: 120px;
+  width: 200px;
+  height: 200px;
+}
+.ibmimg {
+  margin-top: -30px;
+  margin-left: 60px;
+  width: 200px;
+  height: 200px;
+}
+.fullimg {
+  margin-left: 10px;
+  margin-top: -50px;
+  width: 200px;
+  height: 200px;
+}
+
+.industries {
+  height: 1500px;
+}
+.threeind {
+  display: inline;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.bankind {
+  margin-top: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 400px;
+  width: 340px;
+  border-radius: 20px;
+  margin-left: 17px;
+ 
+}
+.healthind {
+  margin-top: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 420px;
+  width: 340px;
+  border-radius: 20px;
+  margin-left: 17px;
+}
+.energyind {
+  margin-top: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 400px;
+  width: 340px;
+  border-radius: 20px;
+  margin-left: 17px;
+}
+
+.bankimgtitle {
+  background: url("./axcenimages/icons8_bank_building\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.bankimgtitle p {
+  color: black !important;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 50px;
+  
+}
+
+.bankind p{
+  color: black !important;
+  width: 330px;
+}
+
+.banktext {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.healthimgtitle {
+  background: url("./axcenimages/icons8_caduceus\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.healthimgtitle p {
+  color: black !important;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 50px;
+  white-space: nowrap;
+}
+
+.healthind p{
+  color: black !important;
+  width: 330px;
+}
+
+.healthtext {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.energyimgtitle {
+  background: url("./axcenimages/icons8_energy_saving_bulb\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.energyimgtitle p {
+  color: black !important;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 50px;
+  
+}
+
+.energyind p{
+  color: black !important;
+  width: 330px;
+}
+
+.energytext {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.contact-message h3 {
+  margin-left: -1150px;
+}
+
+.contact-text {
+  margin-left: -270px;
+  width: 330px;
+}
+
+.contact-form {
+  margin-left: -690px;
+  margin-right: 30px;
+  margin-top: -1800px;
+  height: 1100px;
+  width: 300px;
+  
+}
+
+.upload-container {
+  flex-direction: column; 
+  align-items: stretch; 
+}
+
+
+
+.uploadedFiles {
+  width: 220px;
+}
+.address-container {
+  width: 330px;
+  margin-left: 25px;
+  margin-top: 1200px;
+}
+
+.map {
+  width: 330px;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+.careersinaxcen h3 {
+  margin-top: 50px;
+  text-align: center;
+}
+.careersinaxcen h4 {
+  text-align: center;
+}
+
+.careersinaxcen p {
+  width: 330px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+
+.currentopen h3 {
+  text-align: center;
+  font-family: 'Bookman Old Style';
+margin-bottom: 20px;
+}
+
+.currentopen h4 {
+padding-top: 20px;
+}
+.ui-ux {
+  background-color:rgb(6, 6, 94) ;
+  width: 340px;
+  height: 140px;
+  margin-top: 50px;
+  margin-left: 17px;
+  
+  border-radius: 20px;
+}
+.fullstack {
+  background-color:rgb(6, 6, 94) ;
+  width: 340px;
+  height: 140px;
+  margin-left: 17px;
+  border-radius: 20px;
+
+}
+.jrfullstack {
+  background-color:rgb(6, 6, 94) ;
+  width: 340px;
+  height: 140px;
+  margin-left: 17px;
+  border-radius: 20px;
+
+}
+.ibmdevelop {
+  background-color:rgb(6, 6, 94) ;
+  width: 350px;
+  height: 140px;
+  margin-left: 10px;
+  margin-right: 50px;
+  border-radius: 20px;
+
+}
+.muledevelop {
+  background-color:rgb(6, 6, 94) ;
+  width: 350px;
+  height: 140px;
+  margin-left: 10px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.topopening {
+  display: inline;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.endopening {
+  display: inline;
+  margin-bottom: 100px;
+
+}
+
+.openings h4{
+  color: whitesmoke;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Bookman Old Style';
+
+}
+
+.exp {
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+  margin-left: 20px;
+white-space: nowrap;
+
+}
+
+.place {
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+  margin-left: 20px;
+  margin-top: -70px;
+
+}
+.uicontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 220px;
+  font-size: 70px;
+ 
+}
+.fullcontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 220px;
+  font-size: 70px;
+ 
+}
+.jrfullcontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 220px;
+  font-size: 70px;
+ 
+}
+.ibmcontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 240px;
+  font-size: 70px;
+ 
+}
+.mulecontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 240px;
+  font-size: 70px;
+
+}
+.up, .down {
+  display: block; /* Show up and down arrows in mobile view */
+}
+.previous, .next {
+  display: none;
+}
+
+.up {
+  font-size: 50px;
+  width: 100%;
+  padding-bottom: -40px;
+  padding-top: 0px;
+  border: none;
+  margin-top: 20px;
+  
+  margin-right: 30px;
+  background-color: none;
+}
+
+.down {
+  font-size: 50px;
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  
+  opacity: 5;
+  margin-bottom: 50px;
+}
+
+.ui-ux {
+  margin-top: -20px;
+
+}
+
+.footerpart {
+  height: 300px;
+}
+.footerpart img {
+  margin-left: 20px;
+  
+}
+.footer-axcen-logo h5 {
+  margin-left: 80px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+.footernav-item a{
+  text-decoration: none;
+  color: black;
+
+}
+.footerabout {
+  margin-left: 30px;
+  margin-bottom:30px ;
+  margin-top: 10px;
+white-space: nowrap;
+}
+.footerservice {
+  margin-top: 10px;
+  margin-left: -10px;
+}
+.footercontact {
+  margin-top: 10px;
+  white-space: nowrap;
+  margin-left: -10px;
+}
+.linkedin img{
+  height: 30px;
+  width: 30px;
+  margin-left: 140px;
+  margin-top: -20px;
+}
+
+.insta img {
+  height: 30px;
+  width: 30px;
+  margin-left: 190px;
+  margin-top: -70px;
+}
+.copyhr hr {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: -80px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+}
+
+/*  @media only screen and (max-width: 960px) {
+
+
+  .axcen-logo img {
+    height: 70px;
+    width: 70px;
+    margin-left: -80px;
+  }
+  .axcen-logo h3 {
+    white-space: nowrap;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(245, 245, 245, 1.9); 
+    height: 100px;
+    padding: 10px; 
+    margin-top: 0px;
+    font-family: 'Bookman Old Style';
+    font-weight: 100;
+    width: 710px;
+    
+  }
+
+  .navbar-toggler {
+    width: 60px;
+    margin-top: -70px;
+    margin-left: 530px;
+  }
+  li {
+    font-size: 16px !important;
+    padding-left: 20px !important;
+    margin-left: 20px;
+  }
+
+  ul.navbar-nav{
+    background-color: rgba(245, 245, 245, 5.3); 
+
+  }
+
+  a.nav-link{
+    padding-left: 20px;
+  }
+  .axcenquotes h1{
+    font-size: 20px;
+    width: 290px;
+    padding-top: 250px;
+    padding-left: 80px;
+  }
+
+  .firstquoteimage {
+  background: url("./images/firstquoteimage.avif");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 250px;
+  border-radius: 20px;
+  margin-left: 400px;
+  margin-top: -420px;
+  }
+  .secondquoteimage {
+  background: url("./axcenimages/img\ 2.png");
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 180px;
+  border-radius: 20px;
+  margin-left: 500px;
+  margin-top: -370px;
+  }
+  .thirdquoteimage {
+  background: url("./axcenimages/img\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  width: 240px;
+  border-radius: 20px;
+  margin-left: 350px;
+  margin-top: -40px;
+  }
+
+  .redcircle {
+  background: url("./axcenimages/red\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 130px;
+  width: 130px;
+  margin-top: -260px;
+  margin-left: 340px;
+  }
+  .yellowcircle {
+  background: url("./axcenimages/yellow\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 120px;
+  width: 120px;
+  margin-top: -130px;
+  margin-left: 620px;
+  }
+  .greencircle {
+  background: url("./axcenimages/green\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  margin-top: 210px;
+  margin-left: 580px;
+  }
+
+  .aboutus {
+  margin-top: -320px;
+  height: 800px;
+  }
+  
+  .abouttext {
+  margin-left: -80px;
+  font-family: 'Bookman Old Style';
+  width: 750px;
+  margin-right: 10px;
+  margin-top: -20px;
+  }
+
+.services p{
+  margin-left: 30px;
+  width: 640px;
+  font-size: 20px;
+}
+
+.software-consultant img{
+ width: 320px;
+ height: 330px;
+ margin-left: 80px;
+ margin-top: -270px;
+}
+
+.Consulting-content p{
+  margin-top: -430px;
+  margin-left: 40px;
+  width: 430px;
+  font-size: 18px;
+
+}
+
+.Consulting-content p span{
+  font-size: 22px;
+}
+
+.software-consultant {
+  background: url("./axcenimages/half\ green\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 165px;
+  width: 125px;
+  margin-top: 180px;
+  margin-left: 290px;
+}
+
+.soft-architech img{
+ width: 330px;
+ height: 330px;
+ margin-left: -290px;
+ margin-top: -265px;
+}
+
+.soft-archi p{
+  margin-top: -450px;
+  margin-left: 400px;
+  width: 450px;
+  font-size: 18px;
+}
+.soft-archi p span{
+  font-size: 22px;
+}
+
+.soft-architech {
+  background: url("./axcenimages/half\ red\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 172px;
+  width: 135px;
+  margin-top: 140px;
+  margin-left: 330px;
+}
+.soft-develop img{
+ width: 320px;
+ height: 330px;
+ margin-left: 110px;
+ margin-top: -240px;
+}
+
+.soft-dev p{
+  margin-top: -410px;
+  margin-left: 40px;
+  width: 450px;
+  font-size: 18px;
+}
+
+.soft-dev p span{ 
+  font-size: 22px;
+}
+.soft-develop {
+  background: url("./axcenimages/half\ green\ ellipse.png");
+  background-size: cover;
+  background-position: center;
+  height: 175px;
+  width: 135px;
+  margin-top: 110px;
+  margin-left: 260px;
+}
+.soft-product img{
+ width: 320px;
+ height: 330px;
+ margin-left: 25px;
+ margin-top: -140px;
+ 
+}
+
+.soft-prod p{
+  margin-top: -490px;
+  margin-left: 400px;
+  width: 450px;
+  font-size: 18px;
+}
+
+.soft-prod p span{
+  font-size: 22px;
+}
+
+
+.technology {
+  width: 650px;
+  margin-left: 30px;
+  margin-top: -80px;
+  height: 2830px;
+}
+
+.ibmtechdef p {
+  width: 580px;
+}
+.fulltechdef h3 {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.fulltechdef p {
+  width: 580px;
+  margin-left: 30px;
+}
+.muletechdef h3 {
+  margin-top: 80px;
+}
+.muletechdef p{
+  width: 580px;
+} 
+.bpmtech p{
+  width: 580px;
+}
+
+.muleimg {
+  margin-top: 50px;
+  margin-left: 320px;
+  width: 300px;
+  height: 200px;
+}
+.ibmimg {
+  margin-top: -30px;
+  margin-left: 170px;
+  width: 300px;
+  height: 200px;
+}
+.fullimg {
+  margin-left: 30px;
+  margin-top: -50px;
+  width: 300px;
+  height: 200px;
+}
+
+.industries {
+  height: 1200px;
+}
+.threeind {
+  display: inline;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.bankind {
+  margin-top: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.healthind {
+  margin-top: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.energyind {
+  margin-top: 50px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.bankimgtitle {
+  background: url("./axcenimages/icons8_bank_building\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+
+}
+.bankimgtitle p {
+  color: black !important;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 30px;
+  
+}
+
+.bankind p{
+  color: black !important;
+  width: 550px;
+  padding-left: 30px;
+}
+
+.banktext {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.healthimgtitle {
+  background: url("./axcenimages/icons8_caduceus\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+
+}
+.healthimgtitle p {
+  color: black !important;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 50px;
+  white-space: nowrap;
+  margin-left: 30px;
+
+}
+
+.healthind p{
+  color: black !important;
+  width: 550px;
+  padding-left: 30px;
+}
+
+.healthtext {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.energyimgtitle {
+  background: url("./axcenimages/icons8_energy_saving_bulb\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+
+}
+.energyimgtitle p {
+  color: black !important;
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 30px;
+
+}
+
+.energyind p{
+  color: black !important;
+  width: 550px;
+  padding-left: 30px;
+}
+
+.energytext {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.contact-message h3 {
+  margin-left: -850px;
+}
+
+.contact-text {
+  margin-left: -250px;
+  width: 630px;
+}
+
+.contact-form {
+  margin-left: -690px;
+  margin-right: 20px;
+  margin-top: -1400px;
+}
+
+.address-container {
+  width: 530px;
+  margin-left: 20px;
+  margin-top: 800px;
+}
+.locspan {
+  white-space: nowrap;
+}
+
+.map {
+  width: 630px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.careersinaxcen h3 {
+  margin-top: 50px;
+  text-align: center;
+}
+.careersinaxcen h4 {
+  text-align: center;
+}
+
+.careersinaxcen p {
+  width: 630px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-family: 'Bookman Old Style';
+}
+
+
+.currentopen h3 {
+  text-align: center;
+  font-family: 'Bookman Old Style';
+  margin-bottom: 20px;
+}
+
+.currentopen h4 {
+padding-top: 20px;
+}
+.ui-ux {
+  background-color:rgb(6, 6, 94) ;
+  width: 350px;
+  height: 140px;
+  margin-top: 50px;
+  margin-left: 180px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+.fullstack {
+  background-color:rgb(6, 6, 94) ;
+  width: 350px;
+  height: 140px;
+  margin-left: 180px;
+  margin-right: 50px;
+  border-radius: 20px;
+
+}
+.jrfullstack {
+  background-color:rgb(6, 6, 94) ;
+  width: 350px;
+  height: 140px;
+  margin-left: 180px;
+  margin-right: 50px;
+  border-radius: 20px;
+
+}
+.ibmdevelop {
+  background-color:rgb(6, 6, 94) ;
+  width: 350px;
+  height: 140px;
+  margin-left: 180px;
+  margin-right: 50px;
+  border-radius: 20px;
+
+}
+.muledevelop {
+  background-color:rgb(6, 6, 94) ;
+  width: 350px;
+  height: 140px;
+  margin-left: 180px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.topopening {
+  display: inline;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.endopening {
+  display: inline;
+  margin-bottom: 100px;
+
+}
+
+.openings h4{
+  color: whitesmoke;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Bookman Old Style';
+
+}
+
+.exp {
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+  margin-left: 20px;
+white-space: nowrap;
+
+}
+
+.place {
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+  margin-left: 20px;
+  margin-top: -70px;
+
+}
+.uicontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 240px;
+  font-size: 70px;
+ 
+}
+
+.fullcontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 240px;
+  font-size: 70px;
+ 
+}
+.jrfullcontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 240px;
+  font-size: 70px;
+ 
+}
+.ibmcontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 240px;
+  font-size: 70px;
+ 
+}
+.mulecontact {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 240px;
+  font-size: 70px;
+
+}
+.up, .down {
+  display: block; 
+}
+.previous, .next {
+  display: none;
+}
+
+.up {
+  font-size: 50px;
+  width: 100%;
+  padding-bottom: -40px;
+  padding-top: 0px;
+  border: none;
+  margin-top: 20px;
+  
+  margin-right: 30px;
+  background-color: none;
+}
+
+.down {
+  font-size: 50px;
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  
+  opacity: 5;
+  margin-bottom: 50px;
+}
+
+.ui-ux {
+  margin-top: -20px;
+
+}
+
+.footerpart {
+  height: 280px;
+}
+.footerpart img {
+  margin-left: 20px;
+  
+}
+.footer-axcen-logo h5 {
+  margin-left: 80px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+.footernav-item a{
+  text-decoration: none;
+  color: black;
+
+}
+.footerabout {
+  margin-left: 30px;
+  margin-bottom:30px ;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.footerservice {
+  margin-top: 10px;
+  margin-left: -10px;
+}
+.footercontact {
+  margin-top: 10px;
+  white-space: nowrap;
+  margin-left: -10px;
+}
+.linkedin img{
+  height: 30px;
+  width: 30px;
+  margin-left: 440px;
+  margin-top: -110px;
+}
+
+.insta img {
+  height: 35px;
+  width: 35px;
+  margin-left: 490px;
+  margin-top: -160px;
+}
+.copyhr hr {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: -100px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+}
+
+}  */
+
+
+ 
+  
+
+     
+  

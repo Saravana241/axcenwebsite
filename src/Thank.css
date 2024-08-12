@@ -1,0 +1,133 @@
+.thankyou {
+    border: 1px solid green;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .thanktick {
+    background: url('./images/tick.jpg');
+    height: 80px !important;
+    width: 80px !important;
+    margin-top: -60px;
+    margin-left: 300px;
+    background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      
+      justify-content: center;
+      align-items: center; 
+
+
+  }
+  .thankyoumessage {
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-left: 10px;
+    font-family: 'Bookman Old Style';
+    font-weight: 500;
+  }
+
+  .thankyou p {
+    font-size: 18px;
+ text-align: center;
+   margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: 'Bookman Old Style';
+    font-weight: 100;
+  }
+
+  .thank-home {
+    
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(17, 180, 17);
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 700;
+
+  }
+
+  .thanktext  {
+    color: black !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .thankyou {
+      border: 1px solid green;
+      width: 300px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 20px;
+      
+    }
+    
+    .thanktick {
+      background: url('./images/tick.jpg');
+      height: 80px !important;
+      width: 80px !important;
+      margin-top: -60px;
+      margin-left: 115px;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+  
+  
+    }
+    .thankyoumessage {
+      font-size: 28px;
+    }
+    h2 {
+      margin-top: 50px;
+      font-size: 30px;
+      font-weight: 700;
+      white-space: nowrap;
+      margin-left: 10px;
+      font-family: 'Bookman Old Style';
+      font-weight: 500;
+    }
+  
+    .thankyou p {
+      font-size: 18px;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      font-family: 'Bookman Old Style';
+      font-weight: 100;
+    }
+  
+    .thank-home {
+      
+      text-decoration: none;
+      border: 1px solid green;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: rgb(17, 180, 17);
+      color: whitesmoke;
+      font-size: 18px;
+      font-weight: 700;
+  
+    }
+  
+    .thanktext  {
+      color: black !important;
+      font-size: 18px;
+    }
+    
+  }
