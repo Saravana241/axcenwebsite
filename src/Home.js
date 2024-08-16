@@ -7,23 +7,20 @@ import SoftArchiDesign from "./images/softarchidesign.jpg";
 import SoftDevTest from "./images/softdevtest1.jpg";
 import SoftProductDev from "./images/softproddev1.jpg";
 import "./Home.css";
-import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMapMarkerAlt,
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import uploadIcon from "./axcenimages/upload-icon.png";
-import trashIcon from "./axcenimages/trash_bin.png";
 import linkedin from "./axcenimages/linked.png";
 import insta from "./axcenimages/insta.png";
 
 const Home = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [showTechnologyLinks,setShowTechnologyLinks] = useState(false);
-  const [uploadedFiles, setUploadedFiles] = useState([]);
+  const [setShowTechnologyLinks] = useState(false);
+
 
   const handleNavToggle = () => {
     setIsNavOpen(!isNavOpen);
@@ -31,7 +28,7 @@ const Home = () => {
 
   const closeNav = () => {
     setIsNavOpen(false);
-    setShowTechnologyLinks(false); // Close the additional links when the navigation is closed
+    setShowTechnologyLinks(false); 
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -43,132 +40,6 @@ const Home = () => {
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : prevIndex));
-  };
-
-  const handleFileChange = (event) => {
-    const files = Array.from(event.target.files);
-    setUploadedFiles(files);
-    setFormData({ ...formData, resume: files[0] });
-  };
-
-  const handleDrop = (event) => {
-    event.preventDefault();
-    const files = Array.from(event.dataTransfer.files);
-    setUploadedFiles(files);
-    setFormData({ ...formData, resume: files[0] });
-  };
-
-  const handleDragOver = (event) => {
-    event.preventDefault();
-  };
-
-  const removeFile = (index) => {
-    setUploadedFiles((prevFiles) => prevFiles.filter((_, i) => i !== index));
-  };
-
-  const navigate = useNavigate();
-
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    phoneNumber: "",
-    descriptionbox: "",
-    recipientEmail: "",
-    resume: null,
-  });
-
-  const [errors, setErrors] = useState({});
-
-  const handleChange = (e) => {
-    const { name, value, files } = e.target;
-    if (name === "resume") {
-      setFormData({
-        ...formData,
-        resume: files[0],
-      });
-    } else {
-      setFormData({
-        ...formData,
-        [name]: value,
-      });
-    }
-
-    if (errors[name]) {
-      const newErrors = { ...errors };
-      delete newErrors[name];
-      setErrors(newErrors);
-    }
-  };
-
-  const validate = () => {
-    const newErrors = {};
-    if (!formData.firstName) newErrors.firstName = "First Name is required";
-    if (!formData.lastName) newErrors.lastName = "Last Name is required";
-    if (!formData.recipientEmail) {
-      newErrors.recipientEmail = "Email is required";
-    } else if (!/\S+@\S+\.\S+/.test(formData.recipientEmail)) {
-      newErrors.recipientEmail = "Email address is invalid";
-    }
-    if (!formData.phoneNumber) {
-      newErrors.phoneNumber = "Phone Number is required";
-    } else if (!/^\d{10}$/.test(formData.phoneNumber)) {
-      newErrors.phoneNumber = "Phone Number must be exactly 10 digits";
-    }
-    if (!formData.descriptionbox)
-      newErrors.descriptionbox = "Description is required";
-    if (!formData.resume) newErrors.resume = "Resume is required";
-
-    return newErrors;
-  };
-
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    const validationErrors = validate();
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
-      return;
-    }
-
-    setErrors({});
-    console.log("formData", formData);
-
-    const formDataToSend = new FormData();
-    for (const key in formData) {
-      formDataToSend.append(key, formData[key]);
-    }
-
-    try {
-      const response = await fetch(
-        "http://localhost:3001/axcentech/axcentable",
-        {
-          method: "POST",
-          body: formDataToSend,
-        }
-      );
-
-      if (!response.ok) {
-        console.error("Failed to save data to the server", response);
-        return;
-      }
-
-      console.log("Form Data successfully submitted to the server");
-
-      setFormData({
-        firstName: "",
-        lastName: "",
-        phoneNumber: "",
-        descriptionbox: "",
-        recipientEmail: "",
-        resume: null,
-      });
-
-      // Navigate to "/thank"
-      navigate("/thank");
-    } catch (error) {
-      console.error("An error occurred while submitting the form:", error);
-    }
   };
 
   const handleScroll = () => {
