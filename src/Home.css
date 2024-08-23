@@ -410,6 +410,10 @@ font-family: 'Bookman Old Style';
   padding-top: 50px;
   padding-left: 120px;
   padding-right: 30px;
+  text-align: justify;
+}
+dd {
+  text-align: justify;
 }
 
 .services h4 {
@@ -423,13 +427,14 @@ font-family: 'Bookman Old Style';
 .services p{
   color: black !important;
   width: 1000px;
-  text-align: center;
+  text-align: justify;
   margin-left: 300px;
   font-size: 18px;
   font-family: 'Bookman Old Style';
 }
 .Consulting-content p {
   color: black;
+  text-align: justify;
   font-size: 20px;
   margin-left: 100px;
   margin-top: -480px;
@@ -466,6 +471,7 @@ font-family: 'Bookman Old Style';
 
 .Archi-content p {
   color: black !important;
+  text-align: justify;
   font-size: 20px;
   margin-left: 840px;
   margin-top: -530px;
@@ -502,6 +508,7 @@ font-family: 'Bookman Old Style';
 
 .Develop-content p {
   color: black !important;
+  text-align: justify;
   font-size: 20px;
   margin-left: 100px;
   margin-top: -480px;
@@ -546,6 +553,7 @@ font-family: 'Bookman Old Style';
   padding-right: 150px;
   padding-bottom: 150px;
   font-family: 'Bookman Old Style';
+  text-align: justify;
 }
 
 .Product-content  p span {
@@ -566,7 +574,7 @@ font-family: 'Bookman Old Style';
 
 .technology {
   background-color: black;
-  height: 1500px;
+  height: 2000px;
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 30px;
@@ -661,21 +669,20 @@ font-family: 'Bookman Old Style';
   background: url("./axcenimages/ibm.png");
   background-size: cover;
   background-position: center;
-  height: 240px;
-  width: 350px;
-  margin-top: -150px;
-  margin-left: 535px;
+  height: 190px;
+  width: 300px;
+  margin-top: -480px;
+  margin-left: 735px;
   border-radius: 20px;
-}
-
+}  
 .muleimg {
   background: url("./axcenimages/mule\ soft.png");
   background-size: cover;
   background-position: center;
-  height: 220px;
-  width: 350px;
-  margin-top: -80px;
-  margin-left: 850px;
+  height: 190px;
+  width: 300px;
+  margin-top: -460px;
+  margin-left: 990px;
   border-radius: 20px;
 
 }
@@ -683,13 +690,46 @@ font-family: 'Bookman Old Style';
   background: url("./axcenimages/fullstack.webp");
   background-size: cover;
   background-position: center;
-  height: 220px;
-  width: 350px;
-  margin-top: -180px;
-  margin-left: 220px;
+  height: 190px;
+  width: 300px;
+  margin-top: -40px;
+  margin-left: 615px;
   border-radius: 20px;
 
 }
+.ai-ml {
+  background: url("./axcenimages/ai_logo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 190px;
+  width: 300px;
+  margin-top: -25px;
+  margin-left: 810px;
+  border-radius: 20px;
+
+}
+
+.aimlcontents p {
+  padding-left: 10px;
+  padding-bottom: 20px;
+  width: 570px;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+  }
+  .aimlcontents {
+    padding: 20px;
+    color: white; 
+  }
+  .aimlcontents {
+    width: 200%;
+  }
+  .aimlcontents h3{
+    color: whitesmoke;
+    margin-top: -0px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-family: 'Bookman Old Style';
+  }
 
 .industries {
   background: url("./axcenimages/navyblue.jpg");
@@ -1131,6 +1171,21 @@ margin-top: 20px;
   margin-right: 50px;
 
 }
+.muletechdef h3 {
+  color: whitesmoke;
+  margin-top: -550px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-family: 'Bookman Old Style';
+}
+
+.muletechdef p {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  width: 570px;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+}
 .topopening {
   display: flex;
   margin-bottom: 100px;
@@ -1515,12 +1570,14 @@ a.nav-link{
   width: 450px;
   margin-right: 10px;
   margin-top: -20px;
+  text-align: justify;
 }
 
 .services p{
   margin-left: 30px;
   width: 320px;
   font-size: 20px;
+  text-align: justify;
 }
 
 .software-consultant img{
@@ -1534,6 +1591,7 @@ a.nav-link{
   margin-top: -230px;
   margin-left: 40px;
   width: 450px;
+  text-align: justify;
 }
 
 .Consulting-content p span{
@@ -1551,6 +1609,7 @@ a.nav-link{
   margin-top: -300px;
   margin-left: 40px;
   width: 450px;
+  text-align: justify;
 }
 .soft-archi p span{
   font-size: 26px;
@@ -1566,6 +1625,7 @@ a.nav-link{
   margin-top: -280px;
   margin-left: 40px;
   width: 450px;
+  text-align: justify;
 }
 
 .soft-dev p span{ 
@@ -1583,6 +1643,7 @@ a.nav-link{
   margin-top: -100px;
   margin-left: 40px;
   width: 450px;
+  text-align: justify;
 }
 
 .soft-prod p span{
@@ -1594,9 +1655,12 @@ a.nav-link{
   margin-top: -160px;
   height: 3830px;
 }
-
-.ibmtechdef p {
+dd {
+  text-align: justify;
+}
+.ibmtechdef {
   width: 300px;
+  text-align: justify;
 }
 .fulltechdef h3 {
   margin-top: 50px;

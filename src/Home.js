@@ -28,7 +28,7 @@ const Home = () => {
 
   const closeNav = () => {
     setIsNavOpen(false);
-    setShowTechnologyLinks(false); 
+    setShowTechnologyLinks(false);
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -89,15 +89,13 @@ const Home = () => {
                 </button>
 
                 <div
-                  className={`collapse navbar-collapse ${
-                    isNavOpen ? "show" : ""
-                  }`}
+                  className={`collapse navbar-collapse ${isNavOpen ? "show" : ""
+                    }`}
                 >
                   <ul className="navbar-nav">
                     <li
-                      className={`nav-item homenav ${
-                        activeLink === "home" ? "active" : ""
-                      }`}
+                      className={`nav-item homenav ${activeLink === "home" ? "active" : ""
+                        }`}
                     >
                       <a
                         href="#home"
@@ -109,9 +107,8 @@ const Home = () => {
                     </li>
 
                     <li
-                      className={`nav-item ${
-                        activeLink === "axcenaboutus" ? "active" : ""
-                      }`}
+                      className={`nav-item ${activeLink === "axcenaboutus" ? "active" : ""
+                        }`}
                     >
                       <a
                         href="#axcenaboutus"
@@ -123,9 +120,8 @@ const Home = () => {
                     </li>
 
                     <li
-                      className={`nav-item ${
-                        activeLink === "axcenservices" ? "active" : ""
-                      }`}
+                      className={`nav-item ${activeLink === "axcenservices" ? "active" : ""
+                        }`}
                     >
                       <a
                         href="#axcenservices"
@@ -137,9 +133,8 @@ const Home = () => {
                     </li>
 
                     <li
-                      className={`nav-item ${
-                        activeLink === "axcentechnology" ? "active" : ""
-                      }`}
+                      className={`nav-item ${activeLink === "axcentechnology" ? "active" : ""
+                        }`}
                     >
                       <a
                         href="#axcentechnology"
@@ -151,9 +146,8 @@ const Home = () => {
                     </li>
 
                     <li
-                      className={`nav-item ${
-                        activeLink === "axcenindustry" ? "active" : ""
-                      }`}
+                      className={`nav-item ${activeLink === "axcenindustry" ? "active" : ""
+                        }`}
                     >
                       <a
                         href="#axcenindustry"
@@ -165,9 +159,8 @@ const Home = () => {
                     </li>
 
                     <li
-                      className={`nav-item contact-us ${
-                        activeLink === "axcencontactus" ? "active" : ""
-                      }`}
+                      className={`nav-item contact-us ${activeLink === "axcencontactus" ? "active" : ""
+                        }`}
                     >
                       <a
                         href="#axcencontactus"
@@ -352,7 +345,7 @@ const Home = () => {
             <div className="ibmtechdef">
               <h3> IBM Middleware Technologies</h3>
               <p>
-                <dd>
+                <dd>  
                   <span style={{ color: "black" }}>&#128173;</span>{" "}
                   Installation, configuring, managing and troubleshooting of
                   WebLogic and WebSphere Application Server for testing,
@@ -405,6 +398,18 @@ const Home = () => {
                   for building user interfaces, allowing for the creation of
                   reusable UI components. The component-based architecture of
                   React enables modular and efficient development.
+                </dd>
+                <br />
+
+                <dl>React Native</dl>
+                <dd>
+                  &#128173; Axcen utilizes React Native for building
+                  cross-platform mobile applications with a single codebase.
+                  React Native allows developers to create natively-rendered
+                  mobile apps for iOS and Android using the same principles and
+                  libraries as React.js. This approach ensures consistent
+                  performance, seamless user experience, and reduced development
+                  time.
                 </dd>
                 <br />
                 <dl> Django</dl>
@@ -467,7 +472,7 @@ const Home = () => {
             <div className="othertechdef">
               <div className="bpmtech">
                 <h3>IBM Technologies</h3>
-                <p>&#128173; IBM tolls</p>
+                <p>&#128173; IBM tools</p>
               </div>
               <div className="opensource">
                 <h3>Open Source Technologies</h3>
@@ -479,8 +484,65 @@ const Home = () => {
                 </p>
               </div>
             </div>
+
+            <div className="aimlcontents">
+              <h3>AI and ML</h3>
+              <p>
+                <dd>
+                  &#128173; We leverage cloud computing platforms to scale and
+                  deploy AI and ML models with high efficiency and security.
+                </dd>
+                <dd>
+                  &#128173; Our expertise in big data allows us to process vast
+                  amounts of information, turning raw data into actionable
+                  insights.
+                </dd>
+                <dd>
+                  &#128173; With our deep learning frameworks, we create
+                  sophisticated neural networks that can recognize patterns,
+                  make predictions, and evolve with your business.
+                </dd>
+                <dd>
+                  &#128173; We integrate AI solutions seamlessly into your
+                  existing systems, ensuring smooth operations and maximizing
+                  ROI.
+                </dd>
+                <dd>
+                  &#128173; Our data visualization tools turn complex datasets
+                  into intuitive, easy-to-understand graphics, empowering you to
+                  make informed decisions.
+                </dd>
+
+                <dd>
+                  &#128173; We offer end-to-end AI development, from initial
+                  concept and prototyping to deployment and ongoing support.
+                </dd>
+                <dd>
+                  &#128173; Our AI-driven automation services reduce manual
+                  work, optimize workflows, and increase productivity across
+                  various business functions.
+                </dd>
+                <dd>
+                  &#128173; Embrace the future with our AI solutions designed to
+                  enhance customer experience, improve operational efficiency,
+                  and drive growth in a competitive market.
+                </dd>
+                <dd>
+                  &#128173; We prioritize data security and compliance, ensuring
+                  that our AI and ML solutions adhere to the highest standards
+                  of privacy and protection.
+                </dd>
+                <dd>
+                  &#128173; Stay ahead of the curve with our continuous
+                  innovation in AI, as we constantly refine our models to adapt
+                  to the latest technological advancements.
+                </dd>
+              </p>
+            </div>
+
             <div className="techimages">
               <div className="muleimg"></div>
+              <div className="ai-ml"></div>
               <div className="ibmimg"></div>
               <div className="fullimg"></div>
             </div>
@@ -575,9 +637,9 @@ const Home = () => {
                 <FontAwesomeIcon icon={faEnvelope} />
                 &nbsp; hr@axcentech.com
               </span>
-           
+
             </div>
-         
+
 
           </div>
         </section>
@@ -669,9 +731,8 @@ const Home = () => {
                     )}
                     {index === 3 && (
                       <div
-                        className={`endopening ${
-                          showFourthDiv ? "showFourthDiv" : ""
-                        }`}
+                        className={`endopening ${showFourthDiv ? "showFourthDiv" : ""
+                          }`}
                       >
                         <div className="ibmdevelop">
                           <h4>IBM Developer</h4>
@@ -691,9 +752,8 @@ const Home = () => {
                     )}
                     {index === 4 && (
                       <div
-                        className={`endopening ${
-                          showFourthDiv ? "showFourthDiv" : ""
-                        }`}
+                        className={`endopening ${showFourthDiv ? "showFourthDiv" : ""
+                          }`}
                       >
                         <div className="muledevelop">
                           <h4>MuleSoft Developer</h4>
@@ -783,7 +843,7 @@ const Home = () => {
                   <img
                     src={linkedin}
                     alt="LinkedIn"
-                    //style={{ width: "24px", height: "24px", marginLeft: "10px" }}
+                  //style={{ width: "24px", height: "24px", marginLeft: "10px" }}
                   />
                 </a>
               </div>
