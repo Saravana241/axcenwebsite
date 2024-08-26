@@ -574,7 +574,7 @@ dd {
 
 .technology {
   background-color: black;
-  height: 2000px;
+  height: 2600px;
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 30px;
@@ -591,13 +591,14 @@ dd {
 
 .ibmtechdef h3 {
   color: whitesmoke;
-  padding-left: 30px;
+  padding-left: 670px;
   padding-bottom: 20px;
   font-family: 'Bookman Old Style';
+  margin-top: -1620px;
 }
 .ibmtechdef p {
   width: 570px;
-  margin-left: 30px;
+  margin-left: 670px;
   color: whitesmoke;
   font-family: 'Bookman Old Style';
 }
@@ -606,7 +607,7 @@ dd {
   color: whitesmoke;
   margin-left: 670px;
   padding-bottom: 20px;
-  margin-top: -605px;
+  margin-top: 65px;
   font-family: 'Bookman Old Style';
 
 }
@@ -627,7 +628,7 @@ dd {
 
 .muletechdef h3 {
   color: whitesmoke;
-  margin-top: -330px;
+  margin-top: -250px;
   padding-left: 30px;
   padding-bottom: 20px;
   font-family: 'Bookman Old Style';
@@ -681,7 +682,7 @@ dd {
   background-position: center;
   height: 190px;
   width: 300px;
-  margin-top: -460px;
+  margin-top: -10px;
   margin-left: 990px;
   border-radius: 20px;
 
@@ -693,7 +694,7 @@ dd {
   height: 190px;
   width: 300px;
   margin-top: -40px;
-  margin-left: 615px;
+  margin-left: 595px;
   border-radius: 20px;
 
 }
@@ -1173,7 +1174,7 @@ margin-top: 20px;
 }
 .muletechdef h3 {
   color: whitesmoke;
-  margin-top: -550px;
+  margin-top: -250px;
   padding-left: 30px;
   padding-bottom: 20px;
   font-family: 'Bookman Old Style';

@@ -342,10 +342,121 @@ const Home = () => {
         <section id="axcentechnology">
           <div className="technology">
             <h4>Technologies</h4>
+            <div className="aimlcontents">
+              <h3>AI and ML</h3>
+              <p>
+                <dd>
+                  &#128173; We leverage cloud computing platforms to scale and
+                  deploy AI and ML models with high efficiency and security.
+                </dd>
+                <dd>
+                  &#128173; Our expertise in big data allows us to process vast
+                  amounts of information, turning raw data into actionable
+                  insights.
+                </dd>
+                <dd>
+                  &#128173; With our deep learning frameworks, we create
+                  sophisticated neural networks that can recognize patterns,
+                  make predictions, and evolve with your business.
+                </dd>
+                <dd>
+                  &#128173; We integrate AI solutions seamlessly into your
+                  existing systems, ensuring smooth operations and maximizing
+                  ROI.
+                </dd>
+                <dd>
+                  &#128173; Our data visualization tools turn complex datasets
+                  into intuitive, easy-to-understand graphics, empowering you to
+                  make informed decisions.
+                </dd>
+                <dd>
+                  &#128173; We offer end-to-end AI development, from initial
+                  concept and prototyping to deployment and ongoing support.
+                </dd>
+                <dd>
+                  &#128173; Our AI-driven automation services reduce manual
+                  work, optimize workflows, and increase productivity across
+                  various business functions.
+                </dd>
+                <dd>
+                  &#128173; Embrace the future with our AI solutions designed to
+                  enhance customer experience, improve operational efficiency,
+                  and drive growth in a competitive market.
+                </dd>
+                <dd>
+                  &#128173; We prioritize data security and compliance, ensuring
+                  that our AI and ML solutions adhere to the highest standards
+                  of privacy and protection.
+                </dd>
+                <dd>
+                  &#128173; Stay ahead of the curve with our continuous
+                  innovation in AI, as we constantly refine our models to adapt
+                  to the latest technological advancements.
+                </dd>
+                <dd>
+                  💭 Our AI-powered recommendation engines enhance
+                  personalization, providing tailored experiences that drive
+                  customer satisfaction and loyalty.
+                </dd>
+                <dd>
+                  {" "}
+                  💭 We harness the power of natural language processing (NLP)
+                  to develop intelligent chatbots, virtual assistants, and
+                  sentiment analysis tools that understand and respond to human
+                  language with precision.
+                </dd>
+                <dd>
+                  💭 Through machine learning algorithms, we help you uncover
+                  hidden patterns in your data, enabling predictive analytics
+                  that anticipate trends and opportunities before they arise.
+                </dd>
+                <dd>
+                  {" "}
+                  💭 Our computer vision solutions empower businesses to analyze
+                  and interpret visual data, from image recognition to video
+                  analysis, transforming how you engage with the world around
+                  you.
+                </dd>{" "}
+                <dd>
+                  💭 We specialize in reinforcement learning, creating AI
+                  systems that learn and adapt through interaction with their
+                  environments, leading to continuous improvement and optimal
+                  decision-making.
+                </dd>
+                <dd>
+                  💭 Our AI-driven predictive maintenance solutions help you
+                  prevent equipment failures, reduce downtime, and extend the
+                  life of your assets by identifying issues before they become
+                  critical.{" "}
+                </dd>
+                <dd>
+                  💭 With our AI-based fraud detection systems, we safeguard
+                  your business by identifying and mitigating fraudulent
+                  activities in real-time, ensuring the integrity of your
+                  operations.
+                </dd>{" "}
+                <dd>
+                  💭 We provide custom AI solutions tailored to your industry,
+                  whether it's finance, healthcare, retail, or manufacturing,
+                  delivering specialized models that address your unique
+                  challenges.
+                </dd>
+                <dd>
+                  💭 Our AI consulting services guide you through the
+                  complexities of AI adoption, offering strategic insights and
+                  implementation support to ensure your AI initiatives succeed.{" "}
+                </dd>{" "}
+                <dd>
+                  💭 Leveraging AI for dynamic pricing, we help businesses
+                  optimize pricing strategies in real-time, maximizing revenue
+                  while staying competitive in the market.
+                </dd>
+              </p>
+            </div>
             <div className="ibmtechdef">
               <h3> IBM Middleware Technologies</h3>
               <p>
-                <dd>  
+                <dd>
                   <span style={{ color: "black" }}>&#128173;</span>{" "}
                   Installation, configuring, managing and troubleshooting of
                   WebLogic and WebSphere Application Server for testing,
@@ -400,7 +511,6 @@ const Home = () => {
                   React enables modular and efficient development.
                 </dd>
                 <br />
-
                 <dl>React Native</dl>
                 <dd>
                   &#128173; Axcen utilizes React Native for building
@@ -484,62 +594,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-
-            <div className="aimlcontents">
-              <h3>AI and ML</h3>
-              <p>
-                <dd>
-                  &#128173; We leverage cloud computing platforms to scale and
-                  deploy AI and ML models with high efficiency and security.
-                </dd>
-                <dd>
-                  &#128173; Our expertise in big data allows us to process vast
-                  amounts of information, turning raw data into actionable
-                  insights.
-                </dd>
-                <dd>
-                  &#128173; With our deep learning frameworks, we create
-                  sophisticated neural networks that can recognize patterns,
-                  make predictions, and evolve with your business.
-                </dd>
-                <dd>
-                  &#128173; We integrate AI solutions seamlessly into your
-                  existing systems, ensuring smooth operations and maximizing
-                  ROI.
-                </dd>
-                <dd>
-                  &#128173; Our data visualization tools turn complex datasets
-                  into intuitive, easy-to-understand graphics, empowering you to
-                  make informed decisions.
-                </dd>
-
-                <dd>
-                  &#128173; We offer end-to-end AI development, from initial
-                  concept and prototyping to deployment and ongoing support.
-                </dd>
-                <dd>
-                  &#128173; Our AI-driven automation services reduce manual
-                  work, optimize workflows, and increase productivity across
-                  various business functions.
-                </dd>
-                <dd>
-                  &#128173; Embrace the future with our AI solutions designed to
-                  enhance customer experience, improve operational efficiency,
-                  and drive growth in a competitive market.
-                </dd>
-                <dd>
-                  &#128173; We prioritize data security and compliance, ensuring
-                  that our AI and ML solutions adhere to the highest standards
-                  of privacy and protection.
-                </dd>
-                <dd>
-                  &#128173; Stay ahead of the curve with our continuous
-                  innovation in AI, as we constantly refine our models to adapt
-                  to the latest technological advancements.
-                </dd>
-              </p>
-            </div>
-
+            
             <div className="techimages">
               <div className="muleimg"></div>
               <div className="ai-ml"></div>
@@ -547,7 +602,7 @@ const Home = () => {
               <div className="fullimg"></div>
             </div>
           </div>
-        </section>
+        </section>{" "}
         <section id="axcenindustry">
           <div className="industries">
             <h3>Industries</h3>
