@@ -2391,6 +2391,26 @@ a.nav-link{
 dd {
   text-align: justify;
 }
+
+
+.aimlcontents p {
+  width: 270px;
+  margin-left: 30px;
+  color: whitesmoke;
+  font-family: 'Bookman Old Style';
+  }
+  .aimlcontents {
+    padding: 20px;
+    color: white; 
+  }
+
+  .aimlcontents h3{
+    color: whitesmoke;
+    margin-top: -0px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-family: 'Bookman Old Style';
+  }
 .ibmtechdef {
   width: 300px;
   text-align: justify;
