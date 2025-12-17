@@ -172,7 +172,7 @@ const Home = () => {
 </nav>
 
 {/* Hero Section */}
-<section id="home" className="relative min-h-screen overflow-hidden bg-cover bg-center pt-20 lg:pt-24" style={{ backgroundImage: `url(${bgImage})` }}>
+<section id="home" className="relative min-h-screen overflow-hidden bg-cover bg-center pt-20 lg:pt-24" >
   <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-32">
     <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
       {/* Left Content */}
@@ -571,43 +571,43 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Contact Us Section */}
-      <section id="axcencontactus" className="py-16 lg:py-24 bg-gray-100">
-        <div className="container mx-auto px-4 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-8 lg:mb-12">Contact Us</h2>
-          
-          <div className="max-w-4xl mx-auto">
-            <p className="text-base lg:text-lg text-gray-700 text-center mb-8 lg:mb-12">
-              Feel free to contact us with your specific requirements through
-              the contact form below. We value your time and will strive to
-              get back to you as soon as possible. Our dedicated team is ready
-              to collaborate and bring your software ideas to life.
-            </p>
+ {/* Contact Us Section */}
+<section id="axcencontactus" className="py-16 lg:py-24 bg-gray-100">
+  <div className="container mx-auto px-4 lg:px-8">
+    <h2 className="text-3xl lg:text-4xl font-bold text-center mb-8 lg:mb-12">Contact Us</h2>
+    
+    <div className="max-w-4xl mx-auto">
+      <p className="text-base lg:text-lg text-gray-700 text-center mb-8 lg:mb-12">
+        Feel free to contact us with your specific requirements through
+        the contact form below. We value your time and will strive to
+        get back to you as soon as possible. Our dedicated team is ready
+        to collaborate and bring your software ideas to life.
+      </p>
 
-            <div className="bg-white rounded-2xl shadow-lg p-6 lg:p-8">
-              <h3 className="text-xl lg:text-2xl font-bold mb-6">India</h3>
-              <div className="space-y-4 text-sm lg:text-base">
-                <div className="flex items-start">
-                  <FontAwesomeIcon icon={faMapMarkerAlt} className="mt-1 mr-3 text-blue-600" />
-                  <p>
-                    No.10, Second Cross,<br />
-                    Kumaran Nagar, Puthur,<br />
-                    Thiruchirappalli - 620 017
-                  </p>
-                </div>
-                <div className="flex items-center">
-                  <FontAwesomeIcon icon={faPhone} className="mr-3 text-blue-600" />
-                  <p>+91 86752 04168</p>
-                </div>
-                <div className="flex items-center">
-                  <FontAwesomeIcon icon={faEnvelope} className="mr-3 text-blue-600" />
-                  <p>hr@axcentech.com</p>
-                </div>
-              </div>
-            </div>
+      <div className="bg-white rounded-2xl shadow-lg p-6 lg:p-8">
+        <h3 className="text-xl lg:text-2xl font-bold mb-6">India</h3>
+        <div className="space-y-4 text-sm lg:text-base">
+          <div className="flex items-start">
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="mt-1 mr-3 text-blue-600 flex-shrink-0" />
+            <p className="leading-relaxed">
+              No.10, Second Cross,<br />
+              Kumaran Nagar, Puthur,<br />
+              Thiruchirappalli - 620 017
+            </p>
+          </div>
+          <div className="flex items-center">
+            <FontAwesomeIcon icon={faPhone} className="mr-3 text-blue-600 flex-shrink-0" />
+            <p>+91 86752 04168</p>
+          </div>
+          <div className="flex items-center">
+            <FontAwesomeIcon icon={faEnvelope} className="mr-3 text-blue-600 flex-shrink-0 " />
+            <p>hr@axcentech.com</p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Careers Section */}
       <section id="careers" className="py-16 lg:py-24 bg-white">
