@@ -230,44 +230,43 @@ const Home = () => {
   </div>
 </section>
 
-      {/* About Us Section */}
-      <section id="axcenaboutus" className="py-16 lg:py-24 bg-gradient-to-br from-slate-900 to-slate-800 text-white">
-        <h2 className="text-sm lg:text-4xl sm:text-4xl font-bold text-center mb-8 lg:mb-12">
-            Axcen's Commitment to Excellence
-          </h2>
-        <div className="container mx-auto px-4 lg:px-8">
-          
-          <div className="max-w-5xl mx-auto text-base lg:text-lg leading-relaxed space-y-4">
-            <p>
-              The world is evolving rapidly with transformative technological
-              advancements, dynamic changes in economies, and a shifting global
-              landscape. These changes make it challenging for our people,
-              clients, partners, and communities to navigate the evolving
-              landscape. At Axcen, we constantly push the boundaries of what's
-              possible by leveraging our expertise, experience, and innovative
-              ecosystem to empower enterprises, people, and communities to build
-              a better Future, Faster. Together. To achieve this, we drive
-              business transformation using what we are good at—technology,
-              talent, and a robust ecosystem of partners—to eliminate all
-              barriers to progress. Our commitment is to a singular goal: to
-              relentlessly ensure our clients become their future sustainable
-              selves ahead of schedule.
-            </p>
-            <p>
-              We want to use technology to build intimacy, warmth, and
-              empathy through the experiences we create. Our purpose is to
-              unleash new possibilities and impact every human we touch. Our
-              net-zero pledge leverages renewable energy, waste management, and
-              a focus on the practices of a circular economy to ensure a
-              healthier, safer, and more sustainable business. Our vision lets
-              us be as ambitious as we want to be. It allows us to think beyond
-              what we did until yesterday. Today, we have become the catalyst
-              that takes all our stakeholders to the future, faster. Together.
-            </p>
-          </div>
-        </div>
-      </section>
-
+{/* About Us Section */}
+<section id="axcenaboutus" className="py-16 lg:py-24 bg-gradient-to-br from-slate-900 to-slate-800 text-white">
+  <h2 className="text-sm lg:text-4xl sm:text-4xl font-bold text-center mb-8 lg:mb-12">
+    Axcen's Commitment to Excellence
+  </h2>
+  <div className="container mx-auto px-4 lg:px-8">
+    {/* Add text-justify class here */}
+    <div className="max-w-5xl mx-auto text-base lg:text-lg leading-relaxed space-y-4 text-justify">
+      <p>
+        The world is evolving rapidly with transformative technological
+        advancements, dynamic changes in economies, and a shifting global
+        landscape. These changes make it challenging for our people,
+        clients, partners, and communities to navigate the evolving
+        landscape. At Axcen, we constantly push the boundaries of what's
+        possible by leveraging our expertise, experience, and innovative
+        ecosystem to empower enterprises, people, and communities to build
+        a better Future, Faster. Together. To achieve this, we drive
+        business transformation using what we are good at—technology,
+        talent, and a robust ecosystem of partners—to eliminate all
+        barriers to progress. Our commitment is to a singular goal: to
+        relentlessly ensure our clients become their future sustainable
+        selves ahead of schedule.
+      </p>
+      <p>
+        We want to use technology to build intimacy, warmth, and
+        empathy through the experiences we create. Our purpose is to
+        unleash new possibilities and impact every human we touch. Our
+        net-zero pledge leverages renewable energy, waste management, and
+        a focus on the practices of a circular economy to ensure a
+        healthier, safer, and more sustainable business. Our vision lets
+        us be as ambitious as we want to be. It allows us to think beyond
+        what we did until yesterday. Today, we have become the catalyst
+        that takes all our stakeholders to the future, faster. Together.
+      </p>
+    </div>
+  </div>
+</section>
       {/* Services Section - Simple Alternating Layout */}
       <section id="axcenservices" className="py-16 lg:py-24 bg-white">
         <div className="container mx-auto px-4 lg:px-8">
@@ -293,7 +292,7 @@ const Home = () => {
                 <h3 className="text-2xl lg:text-3xl font-bold text-blue-900 mb-4">
                   Software Consulting Services
                 </h3>
-                <p className="text-base lg:text-lg text-gray-700 leading-relaxed">
+                <p className="text-base lg:text-lg text-gray-700 leading-relaxed text-justify">
                   Our software consulting services are designed to help you get
                   the most out of your software investment. We can assist you with
                   everything from needs assessment and software selection to
@@ -308,7 +307,7 @@ const Home = () => {
                 <h3 className="text-2xl lg:text-3xl font-bold text-blue-900 mb-4">
                   Software Architecture and Design Services
                 </h3>
-                <p className="text-base lg:text-lg text-gray-700 leading-relaxed">
+                <p className="text-base lg:text-lg text-gray-700 leading-relaxed text-justify">
                   Our software architecture and design services are designed to
                   help organizations build a new system or modify their existing
                   software systems to stay ahead of the competition. From choosing
@@ -338,7 +337,7 @@ const Home = () => {
                 <h3 className="text-2xl lg:text-3xl font-bold text-blue-900 mb-4">
                   Software Development and Testing Services
                 </h3>
-                <p className="text-base lg:text-lg text-gray-700 leading-relaxed">
+                <p className="text-base lg:text-lg text-gray-700 leading-relaxed text-justify">
                   Backed by a pool of experienced software developers and testers,
                   Axcen can be your trusted partner in your digital transformation
                   journey. Whether you need a new application developed from
@@ -354,7 +353,7 @@ const Home = () => {
                 <h3 className="text-2xl lg:text-3xl font-bold text-blue-900 mb-4">
                   Software Product Development Services
                 </h3>
-                <p className="text-base lg:text-lg text-gray-700 leading-relaxed">
+                <p className="text-base lg:text-lg text-gray-700 leading-relaxed text-justify">
                   Take advantage of the product engineering services provided by
                   Axcen to turn your ideas into reality. Our full-cycle IT
                   services can take you through all stages of product development
@@ -379,13 +378,13 @@ const Home = () => {
   <div className="container mx-auto px-4 lg:px-8">
     <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12 lg:mb-16">Technologies</h2>
 
-    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
+    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto ">
       {/* Left Column */}
       <div className="space-y-8 lg:space-y-12">
         {/* AI and ML - Left Column */}
         <div className="space-y-4">
           <h3 className="text-2xl lg:text-3xl font-bold mb-6">AI and ML</h3>
-          <div className="space-y-3 text-sm lg:text-base">
+          <div className="space-y-3 text-sm lg:text-base text-justify">
             <p>&#128173; We leverage cloud computing platforms to scale and deploy AI and ML models with high efficiency and security.</p>
             <p>&#128173; Our expertise in big data allows us to process vast amounts of information, turning raw data into actionable insights.</p>
             <p>&#128173; With our deep learning frameworks, we create sophisticated neural networks that can recognize patterns, make predictions, and evolve with your business.</p>
@@ -412,7 +411,7 @@ const Home = () => {
         {/* MuleSoft - Left Column */}
         <div className="space-y-4">
           <h3 className="text-2xl lg:text-3xl font-bold mb-6">MuleSoft</h3>
-          <div className="space-y-3 text-sm lg:text-base">
+          <div className="space-y-3 text-sm lg:text-base text-justify">
             <p>&#128173; Axcen is a Strategic MuleSoft Partner with over 2+ years of diverse experience throughout the integration and consulting space.</p>
             <p>&#128173; Learn a little more about us and reach out to discuss how we can help create connected customer experiences for your business.</p>
           </div>
@@ -421,7 +420,7 @@ const Home = () => {
         {/* IBM Technologies - Left Column */}
         <div className="space-y-4">
           <h3 className="text-2xl lg:text-3xl font-bold mb-6">IBM Technologies</h3>
-          <div className="space-y-3 text-sm lg:text-base">
+          <div className="space-y-3 text-sm lg:text-base text-justify">
             <p>&#128173; IBM tools</p>
           </div>
         </div>
@@ -429,7 +428,7 @@ const Home = () => {
         {/* Open Source Technologies - Left Column */}
         <div className="space-y-4">
           <h3 className="text-2xl lg:text-3xl font-bold mb-6">Open Source Technologies</h3>
-          <div className="space-y-3 text-sm lg:text-base">
+          <div className="space-y-3 text-sm lg:text-base text-justify">
             <p>&#128173; Java development Services</p>
             <p>&#128173; PHP development Services</p>
             <p>&#128173; Python development Services</p>
@@ -442,7 +441,7 @@ const Home = () => {
         {/* IBM Middleware Technologies - Right Column */}
         <div className="space-y-4">
           <h3 className="text-2xl lg:text-3xl font-bold mb-6">IBM Middleware Technologies</h3>
-          <div className="space-y-3 text-sm lg:text-base">
+          <div className="space-y-3 text-sm lg:text-base text-justify">
             <p>&#128173; Installation, configuring, managing and troubleshooting of WebLogic and WebSphere Application Server for testing, pre-production and production environments.</p>
             <p>&#128173; Administration of IBM HTTP web Servers which involves, Installation & Web instance creation, Security Integration & WebSphere plug-in management across application.</p>
             <p>&#128173; Enterprise application deployments, upgrades & Rollouts on both Web & Application Servers.</p>
@@ -459,7 +458,7 @@ const Home = () => {
         {/* Full Stack - Right Column */}
         <div className="space-y-4">
           <h3 className="text-2xl lg:text-3xl font-bold mb-6">Full Stack</h3>
-          <div className="space-y-4 text-sm lg:text-base">
+          <div className="space-y-4 text-sm lg:text-base text-justify">
             <div>
               <h4 className="font-semibold text-lg mb-2">React.js</h4>
               <p>&#128173; Axcen leverages React.js for building dynamic and interactive user interfaces. React.js is a JavaScript library for building user interfaces, allowing for the creation of reusable UI components. The component-based architecture of React enables modular and efficient development.</p>
@@ -521,7 +520,7 @@ const Home = () => {
                 </div>
                 <h3 className="text-xl lg:text-2xl font-bold">Banking</h3>
               </div>
-              <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
+              <p className="text-sm lg:text-base text-gray-700 leading-relaxed text-justify">
                 Axcen's strong domain and technology capabilities, focused
                 sub-industry offerings, and a strong partner ecosystem, enable
                 true end-to-end transformation, helping BFSI customers
@@ -539,7 +538,7 @@ const Home = () => {
                 </div>
                 <h3 className="text-xl lg:text-2xl font-bold">Health Care</h3>
               </div>
-              <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
+              <p className="text-sm lg:text-base text-gray-700 leading-relaxed text-justify">
                 Our team of certified software developers, healthcare
                 professionals, and project managers understand the
                 complexities of healthcare IT and the importance of meeting
@@ -557,7 +556,7 @@ const Home = () => {
                 </div>
                 <h3 className="text-xl lg:text-2xl font-bold">Energy</h3>
               </div>
-              <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
+              <p className="text-sm lg:text-base text-gray-700 leading-relaxed text-justify">
                 Axcen is already powering the digital transformation of energy
                 organizations with technology solutions that help achieve
                 core operations goals of safety, reliability, efficiency, and
@@ -576,7 +575,7 @@ const Home = () => {
     <h2 className="text-3xl lg:text-4xl font-bold text-center mb-8 lg:mb-12">Contact Us</h2>
     
     <div className="max-w-4xl mx-auto">
-      <p className="text-base lg:text-lg text-gray-700 text-center mb-8 lg:mb-12">
+      <p className="text-base lg:text-lg text-gray-700 text-center mb-8 lg:mb-12 ">
         Feel free to contact us with your specific requirements through
         the contact form below. We value your time and will strive to
         get back to you as soon as possible. Our dedicated team is ready
@@ -609,20 +608,20 @@ const Home = () => {
 </section>
 
       {/* Careers Section */}
-      <section id="careers" className="py-16 lg:py-24 bg-white">
-        <div className="container mx-auto px-4 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-8">Careers</h2>
-          <h3 className="text-2xl lg:text-3xl font-semibold text-center mb-6">Life@Axcen</h3>
-          <p className="text-base lg:text-lg text-gray-700 text-center max-w-4xl mx-auto mb-12 lg:mb-16">
-            In addition to being driven and innovative, the people at Axcen are
-            also fun-loving bunch who know how to enjoy themselves. Whether we
-            are celebrating a big win or enjoying each other's company, there's
-            always a great sense of camaraderie and lightheartedness that
-            pervades our workplace culture. Join us at Axcen, and you'll not
-            only be part of a dynamic and growth-oriented team, but you'll also
-            get to work with some of the most enjoyable and fun-loving people in
-            the industry.
-          </p>
+<section id="careers" className="py-16 lg:py-24 bg-white">
+  <div className="container mx-auto px-4 lg:px-8">
+    <h2 className="text-3xl lg:text-4xl font-bold text-center mb-8">Careers</h2>
+    <h3 className="text-2xl lg:text-3xl font-semibold text-center mb-6">Life@Axcen</h3>
+    <p className="text-base lg:text-lg text-gray-700 text-center max-w-4xl mx-auto mb-12 lg:mb-16 text-justify">
+      In addition to being driven and innovative, the people at Axcen are
+      also fun-loving bunch who know how to enjoy themselves. Whether we
+      are celebrating a big win or enjoying each other's company, there's
+      always a great sense of camaraderie and lightheartedness that
+      pervades our workplace culture. Join us at Axcen, and you'll not
+      only be part of a dynamic and growth-oriented team, but you'll also
+      get to work with some of the most enjoyable and fun-loving people in
+      the industry.
+    </p>
 
           <h3 className="text-2xl lg:text-3xl font-semibold text-center mb-8 lg:mb-12">Current Openings</h3>
 
