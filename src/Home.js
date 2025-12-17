@@ -21,7 +21,6 @@ import thirdImage from "./axcenimages/img 1.png";
 import redEllipse from "./axcenimages/red ellipse.png";
 import yellowEllipse from "./axcenimages/yellow ellipse.png";
 import greenEllipse from "./axcenimages/green ellipse.png";
-import bgImage from "./axcenimages/bg image.png";
 
 // Import technology images
 import muleSoftImg from "./axcenimages/mule soft.png";
