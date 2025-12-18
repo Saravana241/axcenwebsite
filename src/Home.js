@@ -378,8 +378,8 @@ const Home = () => {
   <div className="container mx-auto px-4 lg:px-8">
     <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12 lg:mb-16">Technologies</h2>
 
-    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto ">
-      {/* Left Column */}
+    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
+      {/* Left Column - AI & ML and Full Stack */}
       <div className="space-y-8 lg:space-y-12">
         {/* AI and ML - Left Column */}
         <div className="space-y-4">
@@ -408,54 +408,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* MuleSoft - Left Column */}
-        <div className="space-y-4">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-6">MuleSoft</h3>
-          <div className="space-y-3 text-sm lg:text-base text-justify">
-            <p>&#128173; Axcen is a Strategic MuleSoft Partner with over 2+ years of diverse experience throughout the integration and consulting space.</p>
-            <p>&#128173; Learn a little more about us and reach out to discuss how we can help create connected customer experiences for your business.</p>
-          </div>
-        </div>
-
-        {/* IBM Technologies - Left Column */}
-        <div className="space-y-4">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-6">IBM Technologies</h3>
-          <div className="space-y-3 text-sm lg:text-base text-justify">
-            <p>&#128173; IBM tools</p>
-          </div>
-        </div>
-
-        {/* Open Source Technologies - Left Column */}
-        <div className="space-y-4">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-6">Open Source Technologies</h3>
-          <div className="space-y-3 text-sm lg:text-base text-justify">
-            <p>&#128173; Java development Services</p>
-            <p>&#128173; PHP development Services</p>
-            <p>&#128173; Python development Services</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Right Column */}
-      <div className="space-y-8 lg:space-y-12">
-        {/* IBM Middleware Technologies - Right Column */}
-        <div className="space-y-4">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-6">IBM Middleware Technologies</h3>
-          <div className="space-y-3 text-sm lg:text-base text-justify">
-            <p>&#128173; Installation, configuring, managing and troubleshooting of WebLogic and WebSphere Application Server for testing, pre-production and production environments.</p>
-            <p>&#128173; Administration of IBM HTTP web Servers which involves, Installation & Web instance creation, Security Integration & WebSphere plug-in management across application.</p>
-            <p>&#128173; Enterprise application deployments, upgrades & Rollouts on both Web & Application Servers.</p>
-            <p>&#128173; Establish and manage environments (testing and production) to enable application development teams.</p>
-            <p>&#128173; Complete configuration of application aided activities form deployment, resources and web services integration. Manage shell scripts for Batch Management</p>
-            <p>&#128173; Perform load test and performance tuning.</p>
-            <p>&#128173; Involve Production to DR switch over and Rollback activity.</p>
-            <p>&#128173; Configure Session replication for failover the JVM.</p>
-            <p>&#128173; Heap Dump analysis for GC related issues, Out Of Memory Errors.</p>
-            <p>&#128173; Manage and Monitoring JVM Performance by Web Sphere Heap size, Garbage Collection and Connection Pools</p>
-          </div>
-        </div>
-
-        {/* Full Stack - Right Column */}
+        {/* Full Stack - Left Column */}
         <div className="space-y-4">
           <h3 className="text-2xl lg:text-3xl font-bold mb-6">Full Stack</h3>
           <div className="space-y-4 text-sm lg:text-base text-justify">
@@ -483,6 +436,86 @@ const Home = () => {
               <h4 className="font-semibold text-lg mb-2">Full Stack Development</h4>
               <p>&#128173; Axcen's full-stack development approach involves proficiency in both frontend (React.js, HTML, CSS) and backend (Django, SQL) technologies. Full-stack developers at Axcen are capable of handling end-to-end development tasks, from designing user interfaces to implementing server-side logic and managing databases.</p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Right Column - All Other Technologies in specified order */}
+      <div className="space-y-8 lg:space-y-12">
+        {/* IBM Middleware Technologies - First in Right Column */}
+        <div className="space-y-4">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-6">IBM Middleware Technologies</h3>
+          <div className="space-y-3 text-sm lg:text-base text-justify">
+            <p>&#128173; Installation, configuring, managing and troubleshooting of WebLogic and WebSphere Application Server for testing, pre-production and production environments.</p>
+            <p>&#128173; Administration of IBM HTTP web Servers which involves, Installation & Web instance creation, Security Integration & WebSphere plug-in management across application.</p>
+            <p>&#128173; Enterprise application deployments, upgrades & Rollouts on both Web & Application Servers.</p>
+            <p>&#128173; Establish and manage environments (testing and production) to enable application development teams.</p>
+            <p>&#128173; Complete configuration of application aided activities form deployment, resources and web services integration. Manage shell scripts for Batch Management</p>
+            <p>&#128173; Perform load test and performance tuning.</p>
+            <p>&#128173; Involve Production to DR switch over and Rollback activity.</p>
+            <p>&#128173; Configure Session replication for failover the JVM.</p>
+            <p>&#128173; Heap Dump analysis for GC related issues, Out Of Memory Errors.</p>
+            <p>&#128173; Manage and Monitoring JVM Performance by Web Sphere Heap size, Garbage Collection and Connection Pools</p>
+            <div>
+              <h4 className="font-semibold text-lg mb-2">IBM MQ</h4>
+              <p>&#128173;Enterprise messaging middleware for reliable, secure application communication</p>
+              <p>🔹Enables asynchronous communication between applications using queues and topics with guaranteed message delivery</p>
+              <p>🔹Supports multiple messaging patterns: point-to-point, publish-subscribe, and request-reply</p>
+              <p>🔹Provides high availability, clustering, and works across hybrid environments (cloud, on-premise, mainframe)</p>
+              <p>🔹Industry standard for mission-critical messaging in banking, insurance, and healthcare sectors</p>
+            </div>
+           
+            <div>
+              <h4 className="font-semibold text-lg mb-2">IBM App Connect (formerly Integration Bus/ACE)</h4>
+              <p>&#128173;Integration platform for connecting applications, data, and APIs</p>
+              <p>🔹Formerly IBM Integration Bus (IIB); provides visual flow designer for building integration solutions</p>
+              <p>🔹Includes 400+ pre-built connectors for SaaS and on-premise applications (Salesforce, SAP, ServiceNow, etc.)</p>
+              <p>🔹Supports multiple integration patterns: message transformation, routing, orchestration, and data mapping</p>
+              <p>🔹Available as cloud (SaaS) or on-premise deployment with support for REST, SOAP, and messaging protocols</p>
+            </div>
+             <div>
+              <h4 className="font-semibold text-lg mb-2">IBM API Connect</h4>
+              <p>&#128173; Complete API lifecycle management platform</p>
+              <p>🔹Creates, secures, manages, and monetizes APIs with built-in developer portal</p>
+              <p>🔹Provides advanced security: OAuth, API keys, JWT, rate limiting, and threat protection</p>
+              <p>🔹Includes API gateway for traffic management, analytics, and monitoring of API performance</p>
+              <p>🔹Supports multi-cloud deployment, API versioning, and integration with microservices</p>
+            </div>
+             <div>
+              <h4 className="font-semibold text-lg mb-2">IBM DataPower Gateway</h4>
+              <p>&#128173;  High-performance security and integration gateway appliance</p>
+              <p>🔹Purpose-built appliance acting as reverse proxy for API and web service security</p>
+              <p>🔹Performs high-speed XML/JSON transformation, validation, and protocol translation (REST to SOAP)</p>
+              <p>🔹Advanced security: SSL/TLS offloading, threat protection, encryption/decryption, and application firewall</p>
+              <p>🔹Multi-protocol support (REST, SOAP, MQ, HTTP/S) with low-latency processing for enterprise integration</p>
+            </div>
+          </div>
+        </div>
+
+        {/* MuleSoft - Second in Right Column */}
+        <div className="space-y-4">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-6">MuleSoft</h3>
+          <div className="space-y-3 text-sm lg:text-base text-justify">
+            <p>&#128173; Axcen is a Strategic MuleSoft Partner with over 2+ years of diverse experience throughout the integration and consulting space.</p>
+            <p>&#128173; Learn a little more about us and reach out to discuss how we can help create connected customer experiences for your business.</p>
+          </div>
+        </div>
+
+        {/* IBM Technologies - Third in Right Column */}
+        <div className="space-y-4">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-6">IBM Technologies</h3>
+          <div className="space-y-3 text-sm lg:text-base text-justify">
+            <p>&#128173; IBM tools</p>
+          </div>
+        </div>
+
+        {/* Open Source Technologies - Fourth in Right Column */}
+        <div className="space-y-4">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-6">Open Source Technologies</h3>
+          <div className="space-y-3 text-sm lg:text-base text-justify">
+            <p>&#128173; Java development Services</p>
+            <p>&#128173; PHP development Services</p>
+            <p>&#128173; Python development Services</p>
           </div>
         </div>
       </div>
