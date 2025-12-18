@@ -440,9 +440,36 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Right Column - All Other Technologies in specified order */}
+      {/* Right Column - All Other Technologies */}
       <div className="space-y-8 lg:space-y-12">
-        {/* IBM Middleware Technologies - First in Right Column */}
+        {/* MuleSoft - Right Column */}
+        <div className="space-y-4">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-6">MuleSoft</h3>
+          <div className="space-y-3 text-sm lg:text-base text-justify">
+            <p>&#128173; Axcen is a Strategic MuleSoft Partner with over 2+ years of diverse experience throughout the integration and consulting space.</p>
+            <p>&#128173; Learn a little more about us and reach out to discuss how we can help create connected customer experiences for your business.</p>
+          </div>
+        </div>
+
+        {/* IBM Technologies - Right Column */}
+        <div className="space-y-4">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-6">IBM Technologies</h3>
+          <div className="space-y-3 text-sm lg:text-base text-justify">
+            <p>&#128173; IBM tools</p>
+          </div>
+        </div>
+
+        {/* Open Source Technologies - Right Column */}
+        <div className="space-y-4">
+          <h3 className="text-2xl lg:text-3xl font-bold mb-6">Open Source Technologies</h3>
+          <div className="space-y-3 text-sm lg:text-base text-justify">
+            <p>&#128173; Java development Services</p>
+            <p>&#128173; PHP development Services</p>
+            <p>&#128173; Python development Services</p>
+          </div>
+        </div>
+
+        {/* IBM Middleware Technologies - Right Column */}
         <div className="space-y-4">
           <h3 className="text-2xl lg:text-3xl font-bold mb-6">IBM Middleware Technologies</h3>
           <div className="space-y-3 text-sm lg:text-base text-justify">
@@ -489,33 +516,6 @@ const Home = () => {
               <p>🔹Advanced security: SSL/TLS offloading, threat protection, encryption/decryption, and application firewall</p>
               <p>🔹Multi-protocol support (REST, SOAP, MQ, HTTP/S) with low-latency processing for enterprise integration</p>
             </div>
-          </div>
-        </div>
-
-        {/* MuleSoft - Second in Right Column */}
-        <div className="space-y-4">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-6">MuleSoft</h3>
-          <div className="space-y-3 text-sm lg:text-base text-justify">
-            <p>&#128173; Axcen is a Strategic MuleSoft Partner with over 2+ years of diverse experience throughout the integration and consulting space.</p>
-            <p>&#128173; Learn a little more about us and reach out to discuss how we can help create connected customer experiences for your business.</p>
-          </div>
-        </div>
-
-        {/* IBM Technologies - Third in Right Column */}
-        <div className="space-y-4">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-6">IBM Technologies</h3>
-          <div className="space-y-3 text-sm lg:text-base text-justify">
-            <p>&#128173; IBM tools</p>
-          </div>
-        </div>
-
-        {/* Open Source Technologies - Fourth in Right Column */}
-        <div className="space-y-4">
-          <h3 className="text-2xl lg:text-3xl font-bold mb-6">Open Source Technologies</h3>
-          <div className="space-y-3 text-sm lg:text-base text-justify">
-            <p>&#128173; Java development Services</p>
-            <p>&#128173; PHP development Services</p>
-            <p>&#128173; Python development Services</p>
           </div>
         </div>
       </div>
@@ -602,13 +602,13 @@ const Home = () => {
         </div>
       </section>
 
- {/* Contact Us Section */}
+{/* Contact Us Section */}
 <section id="axcencontactus" className="py-16 lg:py-24 bg-gray-100">
   <div className="container mx-auto px-4 lg:px-8">
     <h2 className="text-3xl lg:text-4xl font-bold text-center mb-8 lg:mb-12">Contact Us</h2>
     
     <div className="max-w-4xl mx-auto">
-      <p className="text-base lg:text-lg text-gray-700 text-center mb-8 lg:mb-12 ">
+      <p className="text-base lg:text-lg text-gray-700 text-center mb-8 lg:mb-12">
         Feel free to contact us with your specific requirements through
         the contact form below. We value your time and will strive to
         get back to you as soon as possible. Our dedicated team is ready
@@ -619,19 +619,19 @@ const Home = () => {
         <h3 className="text-xl lg:text-2xl font-bold mb-6">India</h3>
         <div className="space-y-4 text-sm lg:text-base">
           <div className="flex items-start">
-            <FontAwesomeIcon icon={faMapMarkerAlt} className="mt-1 mr-3 text-blue-600 flex-shrink-0" />
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="mt-1 mr-3 text-blue-600 flex-shrink-0 w-4" />
             <p className="leading-relaxed">
               No.10, Second Cross,<br />
               Kumaran Nagar, Puthur,<br />
               Thiruchirappalli - 620 017
             </p>
           </div>
-          <div className="flex items-center">
-            <FontAwesomeIcon icon={faPhone} className="mr-3 text-blue-600 flex-shrink-0" />
+          <div className="flex items-start">
+            <FontAwesomeIcon icon={faPhone} className="mt-1 mr-3 text-blue-600 flex-shrink-0 w-4" />
             <p>+91 86752 04168</p>
           </div>
-          <div className="flex items-center">
-            <FontAwesomeIcon icon={faEnvelope} className="mr-3 text-blue-600 flex-shrink-0 " />
+          <div className="flex items-start">
+            <FontAwesomeIcon icon={faEnvelope} className="mt-1 mr-3 text-blue-600 flex-shrink-0 w-4" />
             <p>hr@axcentech.com</p>
           </div>
         </div>
