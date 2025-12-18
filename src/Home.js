@@ -493,7 +493,7 @@ const Home = () => {
             </div>
            
             <div>
-              <h4 className="font-semibold text-lg mb-2">IBM App Connect (formerly Integration Bus/ACE)</h4>
+              <h4 className="font-semibold text-lg mb-2">IBM App Connect Enterprise(formerly Integration Bus/WMB)</h4>
               <p>&#128173;Integration platform for connecting applications, data, and APIs</p>
               <p>🔹Formerly IBM Integration Bus (IIB); provides visual flow designer for building integration solutions</p>
               <p>🔹Includes 400+ pre-built connectors for SaaS and on-premise applications (Salesforce, SAP, ServiceNow, etc.)</p>
